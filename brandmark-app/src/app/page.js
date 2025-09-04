@@ -13,14 +13,29 @@ export default function Home() {
 
 	return (
 		<div className="w-full">
-			{/* Intro Section */}
-			<section id="intro">
-				<div>
-					<h1 className="text-4xl md:text-5xl font-bold mb-6 mx-auto flex items-center justify-center">Welcome to Brandmark</h1>
+			{/* Hero Section */}
+			<section id="hero">
+				<div className="w-full mx-auto text-center px-6 bg-mist/70 py-12 rounded-lg">
+					<Image
+						src="/images/brandmark/logo-no-bg.png"
+						alt="Brandmark Logo"
+						width={200}
+						height={100}
+						className="mx-auto mb-6"
+					/>
+					<h1 className="text-4xl md:text-5xl font-bold mb-6 mx-auto flex items-center justify-center">We Are Brandmark</h1>
+					<p className="text-center text-lg md:text-xl leading-relaxed text-gray-800">
+						Connecting world-class brands with the Irish market
+					</p>
 				</div>
+			</section>
+			
+			{/* Welcome Section */}
+			<section id="welcome" className="mt-12">
 				<div className="mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-6 py-12">
 					{/* Text: 2/3 width on md+ */}
 					<div className="md:col-span-2 p-4 lg:p-25">
+						<h2 className="text-3xl md:text-4xl font-bold mb-4">Welcome</h2>
 						<p className="text-base md:text-lg leading-relaxed text-gray-800 mb-4 mr-6">
 							At Brandmark, we believe in building strong, long-term partnerships. With a keen eye for trends, a commitment to service, and a shared love of great design, our mission is simple: to connect world-class brands with the Irish market in a way that feels fresh, relevant, and exciting.
 						</p>
@@ -32,7 +47,6 @@ export default function Home() {
 								Learn More
 							</a>
 						</div>
-
 					</div>
 
 					{/* Image: 1/3 width on md+ */}
@@ -52,9 +66,10 @@ export default function Home() {
 			</section>
 
 			{/*  Brands Section */}
-			<section id="brands" className=" py-12">
+			<section id="brands" className="mt-12 mb-24">
 				<div className="max-w-7xl mx-auto px-6 bg-mist/70 py-12 rounded-lg">
 					<h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Brands</h2>
+					<p className="text-base md:text-lg font-medium mb-10 text-center px-10 md:px-35">Our portfolio includes some of the most exciting names in contemporary design. Each brand is carefully chosen for its innovation, style, and ability to connect with today’s consumer.</p>
 					{(() => {
 						const firstRow = brands.slice(0, 4);
 						const secondRow = brands.slice(4, 7);
