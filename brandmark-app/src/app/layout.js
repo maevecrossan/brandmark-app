@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 				<div>
 					<Navbar />
-					<main className="row-start-2 pb-[60px] min-h-screen pt-16">
+					<main className="row-start-2 pb-[60px] min-h-screen">
 						{children}
 					</main>
 					<Footer />
