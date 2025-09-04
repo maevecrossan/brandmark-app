@@ -7,6 +7,7 @@ export default function Navbar() {
         <a href="/about" className="hover:underline">About</a>
         <a href="/portfolio" className="hover:underline">Portfolio</a>
         <a href="/contact" className="hover:underline">Contact</a>
+        <a href="/projects" className="hover:underline">Projects</a>
       </div>
     </nav>
   );
