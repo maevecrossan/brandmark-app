@@ -1,17 +1,17 @@
 import Image from "next/image";
 
 export default function Home() {
-    const brands = [
-        { key: 'secrid', label: 'Secrid', src: '/images/secrid/secrid_logo.png' },
-        { key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
-        { key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
-        { key: 'chipolo', label: 'Chipolo', src: '/images/chipolo/chipolo_logo.png' },
-        { key: 'estella-bartlett', label: 'Estella Bartlett', src: '/images/estella-bartlett/eb_logo.png' },
-        { key: 'eat-my-socks', label: 'Eat My Socks', src: '/images/eat-my-socks/ems_logo.png' },
-        { key: 'doiy', label: 'DOIY', src: '/images/doiy/doiy_logo.png' },
-    ];
+	const brands = [
+		{ key: 'secrid', label: 'Secrid', src: '/images/secrid/secrid_logo.png' },
+		{ key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
+		{ key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
+		{ key: 'chipolo', label: 'Chipolo', src: '/images/chipolo/chipolo_logo.png' },
+		{ key: 'estella-bartlett', label: 'Estella Bartlett', src: '/images/estella-bartlett/eb_logo.png' },
+		{ key: 'eat-my-socks', label: 'Eat My Socks', src: '/images/eat-my-socks/ems_logo.png' },
+		{ key: 'doiy', label: 'DOIY', src: '/images/doiy/doiy_logo.png' },
+	];
 
-    return (
+	return (
 		<div className="w-full">
 			{/* Intro Section */}
 			<section id="intro">
@@ -53,21 +53,52 @@ export default function Home() {
 
 			{/*  Brands Section */}
 			<section id="brands" className=" py-12">
-				<div className="max-w-7xl mx-auto px-6 bg-gray-50 py-12 rounded-lg">
+				<div className="max-w-7xl mx-auto px-6 bg-mist/70 py-12 rounded-lg">
 					<h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Brands</h2>
-					<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-                        {brands.map(({ key, label, src }) => (
-                            <div key={key} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
-                                <Image
-                                    src={src}
-                                    alt={`${label} logo`}
-                                    width={150}
-                                    height={75}
-                                    className="object-contain"
-                                    sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
-                                />
-                            </div>
-                        ))}
+					{(() => {
+						const firstRow = brands.slice(0, 4);
+						const secondRow = brands.slice(4, 7);
+						return (
+							<div className="space-y-6">
+								{/* Row 1: 2 per line on md, 4 on lg */}
+								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+									{firstRow.map(({ key, label, src }) => (
+										<div key={key} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+											<Image
+												src={src}
+												alt={`${label} logo`}
+												width={150}
+												height={75}
+												className="object-contain"
+												sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+											/>
+										</div>
+									))}
+								</div>
+
+								{/* Row 2: 2 per line on md, 3 on lg (DOIY will be solo on md) */}
+								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+									{secondRow.map(({ key, label, src }) => (
+										<div key={key} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+											<Image
+												src={src}
+												alt={`${label} logo`}
+												width={150}
+												height={75}
+												className="object-contain"
+												sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+											/>
+										</div>
+									))}
+								</div>
+							</div>
+						);
+					})()}
+
+					<div className="mt-10 mx-auto w-fit">
+						<a href="/portfolio" className="font-bold px-6 py-3 bg-teal/80 text-white rounded-lg hover:bg-teal transition">
+							View Portfolio
+						</a>
 					</div>
 				</div>
 			</section>
