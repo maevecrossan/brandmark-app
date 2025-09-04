@@ -1,7 +1,17 @@
 import Image from "next/image";
 
 export default function Home() {
-	return (
+    const brands = [
+        { key: 'secrid', label: 'Secrid', src: '/images/secrid/secrid_logo.png' },
+        { key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
+        { key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
+        { key: 'chipolo', label: 'Chipolo', src: '/images/chipolo/chipolo_logo.png' },
+        { key: 'estella-bartlett', label: 'Estella Bartlett', src: '/images/estella-bartlett/eb_logo.png' },
+        { key: 'eat-my-socks', label: 'Eat My Socks', src: '/images/eat-my-socks/ems_logo.png' },
+        { key: 'doiy', label: 'DOIY', src: '/images/doiy/doiy_logo.png' },
+    ];
+
+    return (
 		<div className="w-full">
 			{/* Intro Section */}
 			<section id="intro">
@@ -46,17 +56,18 @@ export default function Home() {
 				<div className="max-w-7xl mx-auto px-6 bg-gray-50 py-12 rounded-lg">
 					<h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Brands</h2>
 					<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-						{['secrid', 'cluse', 'izipizi', 'chipolo', 'estella-bartlett', 'eat-my-socks', 'doiy'].map((brand) => (
-							<div key={brand} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
-								<Image
-									src={`/images/brands/${brand}.png`}
-									alt={`${brand} logo`}
-									width={150}
-									height={75}
-									className="object-contain"
-								/>
-							</div>
-						))}
+                        {brands.map(({ key, label, src }) => (
+                            <div key={key} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
+                                <Image
+                                    src={src}
+                                    alt={`${label} logo`}
+                                    width={150}
+                                    height={75}
+                                    className="object-contain"
+                                    sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+                                />
+                            </div>
+                        ))}
 					</div>
 				</div>
 			</section>
