@@ -28,6 +28,16 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 | Styling | Tailwind CSS |  |
 | Create favicon, web app manifest & touch icons | https://realfavicongenerator.net/ |  |
 | Check functionality of favicon, web app manifest & touch icons | https://realfavicongenerator.net/favicon-checker |  |
+| Extract exact brand colours from leaflet | https://imagecolorpicker.com/ |  |
+| Sticky navbar template | https://flowbite.com/docs/components/navbar/#sticky-navbar |  |
+
+## Colour Scheme
+
+| Colour | Used for | Notes |
+|----------------------------|------------------------|----------|
+| #fffcf8 |  |  |
+| #e0e2df |  |  |
+| #4b8484 |  |  |
 
 
 <!-- ## Deploy on Vercel
