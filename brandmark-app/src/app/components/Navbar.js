@@ -25,7 +25,7 @@ export default function Navbar() {
 	const closeOnNavigate = () => setOpen(false);
 
 	return (
-		<nav className="h-full w-full bg-white-400 rounded-b-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-100 border border-gray-100 shadow-sm">
+		<nav className="sticky top-0 inset-x-0 z-50 w-full bg-white/60 supports-[backdrop-filter]:bg-white/40 backdrop-blur-lg bg-clip-padding border-b border-white/20 shadow-sm">
 			<div className="flex flex-wrap items-center justify-between mx-auto p-4 focus:ring-2 focus:ring-gray-200">
 				<a href="/" className="flex flex-1 items-center space-x-3 rtl:space-x-reverse" onClick={closeOnNavigate}>
 					<Image
