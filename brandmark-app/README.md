@@ -30,6 +30,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 | Check functionality of favicon, web app manifest & touch icons | https://realfavicongenerator.net/favicon-checker |  |
 | Extract exact brand colours from leaflet | https://imagecolorpicker.com/ |  |
 | Sticky navbar template | https://flowbite.com/docs/components/navbar/#sticky-navbar |  |
+| Glass effect | https://tailwindcss-glassmorphism.vercel.app/ |  |
 
 ## Colour Scheme
 
