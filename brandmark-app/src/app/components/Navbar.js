@@ -25,7 +25,7 @@ export default function Navbar() {
 	const closeOnNavigate = () => setOpen(false);
 
 	return (
-		<nav className="sticky top-0 inset-x-0 z-50 w-full bg-white/60 supports-[backdrop-filter]:bg-white/40 backdrop-blur-lg bg-clip-padding border-b border-white/20 shadow-sm">
+		<nav className="sticky top-0 inset-x-0 z-50 w-full bg-white/80 supports-[backdrop-filter]:bg-white/70 backdrop-blur-lg bg-clip-padding border-b border-white/20 shadow-sm">
 			<div className="flex flex-wrap items-center justify-between mx-auto p-4 focus:ring-2 focus:ring-gray-200">
 				<a href="/" className="flex flex-1 items-center space-x-3 rtl:space-x-reverse" onClick={closeOnNavigate}>
 					<Image
@@ -64,7 +64,7 @@ export default function Navbar() {
 					id="navbar-sticky"
 					className={`items-center justify-between ${mounted && open ? "block" : "hidden"} w-full md:flex md:w-auto md:order-1 md:mx-auto`}
 				>
-					<ul className="font-eurostile-extended uppercase md:ml-10 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+					<ul className="font-eurostile-extended uppercase md:ml-10 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
 						<li>
 							<a href="/" onClick={closeOnNavigate} className={linkClass("/")} aria-current={mounted && isActive("/") ? "page" : undefined}>Home</a>
 						</li>
