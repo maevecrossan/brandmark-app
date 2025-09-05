@@ -18,8 +18,8 @@ export default function Navbar() {
 
 		const linkClass = (href) => {
 			const base = "block rounded-sm m-1 md:p-0";
-			if (!mounted) return `${base} text-gray-700 hover:text-teal hover:underline font-semibold`;
-			return `${base} ${isActive(href) ? "text-teal underline font-bold" : "text-gray-700 hover:text-teal hover:underline"}`;
+			if (!mounted) return `${base} text-gray-500 hover:text-teal`;
+			return `${base} ${isActive(href) ? "text-black font-bold underline" : "text-gray-500 hover:text-black md:hover:underline"}`;
 		};
 
 	const closeOnNavigate = () => setOpen(false);
