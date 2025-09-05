@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -27,7 +28,7 @@ export default function Navbar() {
 	return (
 		<nav className="sticky top-0 inset-x-0 z-50 w-full bg-white/80 supports-[backdrop-filter]:bg-white/70 backdrop-blur-lg bg-clip-padding border-b border-white/20 shadow-sm">
 			<div className="flex flex-wrap items-center justify-between mx-auto p-4 focus:ring-2 focus:ring-gray-200">
-				<a href="/" className="flex flex-1 items-center space-x-3 rtl:space-x-reverse" onClick={closeOnNavigate}>
+				<Link href="/" className="flex flex-1 items-center space-x-3 rtl:space-x-reverse" onClick={closeOnNavigate}>
 					<Image
 						src="/images/brandmark/logo-no-bg.png"
 						alt="Brandmark Logo"
@@ -36,7 +37,7 @@ export default function Navbar() {
 						className="inline-block mr-1"
 					/>
 					<span className="font-eurostile-extended text-xl font-semibold whitespace-nowrap">Brandmark</span>
-				</a>
+				</Link>
 				<div className="flex flex-1 justify-end md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 					<button
 						type="button"
@@ -66,19 +67,19 @@ export default function Navbar() {
 				>
 					<ul className="font-eurostile-extended uppercase md:ml-10 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
 						<li>
-							<a href="/" onClick={closeOnNavigate} className={linkClass("/")} aria-current={mounted && isActive("/") ? "page" : undefined}>Home</a>
+							<Link href="/" onClick={closeOnNavigate} className={linkClass("/")} aria-current={mounted && isActive("/") ? "page" : undefined}>Home</Link>
 						</li>
 						<li>
-							<a href="/about" onClick={closeOnNavigate} className={linkClass("/about")} aria-current={mounted && isActive("/about") ? "page" : undefined}>About</a>
+							<Link href="/about" onClick={closeOnNavigate} className={linkClass("/about")} aria-current={mounted && isActive("/about") ? "page" : undefined}>About</Link>
 						</li>
 						<li>
-							<a href="/portfolio" onClick={closeOnNavigate} className={linkClass("/portfolio")} aria-current={mounted && isActive("/portfolio") ? "page" : undefined}>Portfolio</a>
+							<Link href="/portfolio" onClick={closeOnNavigate} className={linkClass("/portfolio")} aria-current={mounted && isActive("/portfolio") ? "page" : undefined}>Portfolio</Link>
 						</li>
 						<li>
-							<a href="/projects" onClick={closeOnNavigate} className={linkClass("/projects")} aria-current={mounted && isActive("/projects") ? "page" : undefined}>Projects</a>
+							<Link href="/projects" onClick={closeOnNavigate} className={linkClass("/projects")} aria-current={mounted && isActive("/projects") ? "page" : undefined}>Projects</Link>
 						</li>
 						<li>
-							<a href="/contact" onClick={closeOnNavigate} className={linkClass("/contact")} aria-current={mounted && isActive("/contact") ? "page" : undefined}>Contact</a>
+							<Link href="/contact" onClick={closeOnNavigate} className={linkClass("/contact")} aria-current={mounted && isActive("/contact") ? "page" : undefined}>Contact</Link>
 						</li>
 					</ul>
 				</div>

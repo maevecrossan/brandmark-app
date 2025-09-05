@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
 	const brands = [
@@ -43,9 +44,9 @@ export default function Home() {
 							<span className="font-semibold">Our goal is simple:</span> to work collaboratively with our retail partners, offering them quality products from global brands that resonate with their customers.
 						</p>
 						<div className="mt-6">
-							<a href="/about" className="font-bold px-6 py-3 bg-teal/80 text-white rounded-lg hover:bg-teal transition">
+							<Link href="/about" className="font-bold px-6 py-3 bg-teal/80 text-white rounded-lg hover:bg-teal transition">
 								Learn More
-							</a>
+							</Link>
 						</div>
 					</div>
 
@@ -111,9 +112,9 @@ export default function Home() {
 					})()}
 
 					<div className="mt-10 mx-auto w-fit">
-						<a href="/portfolio" className="font-bold px-6 py-3 bg-teal/80 text-white rounded-lg hover:bg-teal transition">
+						<Link href="/portfolio" className="font-bold px-6 py-3 bg-teal/80 text-white rounded-lg hover:bg-teal transition">
 							View Portfolio
-						</a>
+						</Link>
 					</div>
 				</div>
 			</section>
