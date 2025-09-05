@@ -53,7 +53,7 @@ export default function Home() {
 					<div className="md:col-span-1">
 						<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 							<Image
-								src="/images/trade-show.jpg"
+								src="/images/brandmark/trade-show.jpg"
 								alt="Brandmark visual"
 								fill
 								priority
