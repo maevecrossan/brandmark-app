@@ -18,7 +18,7 @@ export default function Portfolio() {
 			name: "Cluse",
 			logo: "/images/cluse/cluse-logo.png",
 			short: "Minimalist watches and jewellery inspired by modern elegance and timeless design.",
-			categories: ["Watches & Jewelry"],
+			categories: ["Watches", "Jewellery"],
 		},
 		{
 			key: "izipizi",
@@ -39,21 +39,21 @@ export default function Portfolio() {
 			name: "Estella Bartlett",
 			logo: "/images/estella-bartlett/eb_logo.png",
 			short: "Contemporary jewellery and accessories blending femininity, charm, and everyday wearability.",
-			categories: ["Jewellery & Gifts"],
+			categories: ["Jewellery", "Gifts"],
 		},
 		{
 			key: "eat-my-socks",
 			name: "Eat My Socks",
 			logo: "/images/eat-my-socks/ems_logo.png",
 			short: "A fun, creative gift brand turning socks into quirky, food-inspired surprises.",
-			categories: ["Socks & Gifts"],
+			categories: ["Socks", "Gifts"],
 		},
 		{
 			key: "doiy",
 			name: "DOIY",
 			logo: "/images/doiy/doiy_logo.png",
 			short: "Design-led lifestyle products that are clever, playful, and made to spark joy.",
-			categories: ["Gifts & Home"],
+			categories: ["Gifts", "Home"],
 		},
 	];
 
