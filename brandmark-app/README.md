@@ -31,6 +31,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 | Extract exact brand colours from leaflet | https://imagecolorpicker.com/ |  |
 | Sticky navbar template | https://flowbite.com/docs/components/navbar/#sticky-navbar |  |
 | Glass effect | https://tailwindcss-glassmorphism.vercel.app/ |  |
+| Font: Eurostile Condensed Regular | https://freefonts.co/fonts/eurostile-condensed-regular |  |
+| Font: Eurostile Extended #2 Regular | https://freefonts.co/fonts/eurostile-extended-2-regular# |  |
 
 ## Colour Scheme
 
@@ -39,6 +41,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 | #fffcf8 |  |  |
 | #e0e2df |  |  |
 | #4b8484 |  |  |
+
 
 
 <!-- ## Deploy on Vercel
