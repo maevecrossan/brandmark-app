@@ -20,7 +20,7 @@ export default function Portfolio() {
 			name: "Cluse",
 			logo: "/images/cluse/cluse-logo.png",
 			short: "Minimalist watches and jewellery inspired by modern elegance and timeless design.",
-			categories: ["Watches", "Jewellery"],
+			categories: ["Watches", "Jewellery", "Accessories"],
 		},
 		{
 			key: "izipizi",
