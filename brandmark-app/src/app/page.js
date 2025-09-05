@@ -31,7 +31,7 @@ export default function Home() {
 			</section>
 			
 			{/* Welcome Section */}
-			<section id="welcome" className="mt-12">
+			<section id="welcome" className="mt-6">
 				<div className="mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-6 py-12">
 					{/* Text: 2/3 width on md+ */}
 					<div className="md:col-span-2 p-4 lg:p-25">
