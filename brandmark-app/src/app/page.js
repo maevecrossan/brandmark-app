@@ -15,7 +15,7 @@ export default function Home() {
 		<div className="w-full">
 			{/* Hero Section */}
 			<section id="hero">
-				<div className="w-full mx-auto text-center px-6 bg-mist/70 py-12 rounded-lg">
+				<div className="w-full mx-auto text-center px-6 bg-mist/70 py-12 rounded-b-lg">
 					<Image
 						src="/images/brandmark/logo-no-bg.png"
 						alt="Brandmark Logo"
