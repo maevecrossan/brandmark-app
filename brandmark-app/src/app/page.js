@@ -24,7 +24,7 @@ export default function Home() {
 						className="mx-auto mb-6"
 					/>
 					<h1 className="font-eurostile-extended text-4xl md:text-5xl font-bold mb-6 mx-auto flex items-center justify-center">We Are Brandmark</h1>
-					<p className="text-center text-lg md:text-xl leading-relaxed text-gray-800">
+					<p className="font-eurostile-condensed text-center text-xl md:text-xl leading-relaxed text-gray-800">
 						Connecting world-class brands with the Irish market
 					</p>
 				</div>
