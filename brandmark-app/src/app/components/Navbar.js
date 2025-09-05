@@ -19,7 +19,7 @@ export default function Navbar() {
 		const linkClass = (href) => {
 			const base = "block rounded-sm m-1 md:p-0";
 			if (!mounted) return `${base} text-gray-700 hover:text-teal hover:underline font-semibold`;
-			return `${base} ${isActive(href) ? "text-teal underline font-bold" : "text-gray-700 hover:text-teal hover:underline font-semibold"}`;
+			return `${base} ${isActive(href) ? "text-teal underline font-bold" : "text-gray-700 hover:text-teal hover:underline"}`;
 		};
 
 	const closeOnNavigate = () => setOpen(false);
@@ -64,7 +64,7 @@ export default function Navbar() {
 					id="navbar-sticky"
 					className={`items-center justify-between ${mounted && open ? "block" : "hidden"} w-full md:flex md:w-auto md:order-1 md:mx-auto`}
 				>
-					<ul className="md:ml-10 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+					<ul className="font-eurostile-extended uppercase md:ml-10 flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
 						<li>
 							<a href="/" onClick={closeOnNavigate} className={linkClass("/")} aria-current={mounted && isActive("/") ? "page" : undefined}>Home</a>
 						</li>
