@@ -1,3 +1,8 @@
+"use client";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer() {
   return (
     <footer className="font-sans border-t border-gray-200 bg-white text-gray-700">
@@ -50,10 +55,10 @@ export default function Footer() {
             <h5 className="font-eurostile-extended text-sm tracking-wide text-gray-500 mb-2">SOCIAL</h5>
             <div className="flex items-center gap-4 text-2xl text-gray-700">
               <a aria-label="Instagram" className="hover:text-black" href="https://www.instagram.com/brandmarkagencies/?hl=en" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-instagram" />
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
               <a aria-label="LinkedIn" className="hover:text-black" href="https://www.linkedin.com/company/brandmark-agencies/?originalSubdomain=ie" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-linkedin" />
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </div>
             <div className="mt-3 text-sm text-gray-600">@Brandmark Agencies</div>

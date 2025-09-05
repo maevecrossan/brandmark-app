@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Script from "next/script";
 
 export const metadata = {
 	title: "Brandmark",
@@ -19,7 +18,6 @@ export default function RootLayout({ children }) {
 				<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
 				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 				<link rel="manifest" href="/site.webmanifest" />
-                <Script src="https://kit.fontawesome.com/dc45154bc3.js" crossOrigin="anonymous" strategy="afterInteractive" />
 			</head>
 			<body className={`antialiased`}>
 				<div>

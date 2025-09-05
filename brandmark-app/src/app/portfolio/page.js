@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareXmark } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -119,7 +121,7 @@ export default function Portfolio() {
 						>
 							<span>{cat}</span>
 							{selected.has(cat) && (
-								<i className="fa-solid fa-square-xmark" aria-hidden="true"></i>
+								<FontAwesomeIcon icon={faSquareXmark} aria-hidden="true" />
 							)}
 							<span className="sr-only">
 								{selected.has(cat) ? "Selected. Click to deselect." : "Click to select."}
