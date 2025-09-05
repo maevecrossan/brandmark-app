@@ -32,7 +32,7 @@ export default function Portfolio() {
 			name: "Chipolo",
 			logo: "/images/chipolo/chipolo_logo.png",
 			short: "Innovative Bluetooth trackers helping people find their essentials with ease and peace of mind.",
-			categories: ["Smart Accessories"],
+			categories: ["Smart Accessories", "Accessories"],
 		},
 		{
 			key: "estella-bartlett",
