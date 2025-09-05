@@ -42,6 +42,10 @@
   }
 }
 
+/* Utility classes to use custom brand fonts */
+.font-eurostile-extended { font-family: var(--font-eurostile-extended); }
+.font-eurostile-condensed { font-family: var(--font-eurostile-condensed); }
+
 body {
   background: var(--background);
   color: var(--foreground);
