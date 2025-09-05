@@ -35,7 +35,7 @@ export default function Home() {
 				<div className="mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-6 py-12">
 					{/* Text: 2/3 width on md+ */}
 					<div className="md:col-span-2 p-4 lg:p-25">
-						<h2 className="text-3xl md:text-4xl font-bold mb-4">Welcome</h2>
+						<h2 className="font-eurostile-extended text-3xl md:text-4xl font-bold mb-4">Welcome</h2>
 						<p className="text-base md:text-lg leading-relaxed text-gray-800 mb-4 mr-6">
 							At Brandmark, we believe in building strong, long-term partnerships. With a keen eye for trends, a commitment to service, and a shared love of great design, our mission is simple: to connect world-class brands with the Irish market in a way that feels fresh, relevant, and exciting.
 						</p>
@@ -68,7 +68,7 @@ export default function Home() {
 			{/*  Brands Section */}
 			<section id="brands" className="mt-12 mb-24">
 				<div className="max-w-7xl mx-auto px-6 bg-mist/70 py-12 rounded-lg">
-					<h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Our Brands</h2>
+					<h2 className="font-eurostile-extended text-3xl md:text-4xl font-bold mb-8 text-center">Our Brands</h2>
 					<p className="text-base md:text-lg font-medium mb-10 text-center px-10 md:px-35">Our portfolio includes some of the most exciting names in contemporary design. Each brand is carefully chosen for its innovation, style, and ability to connect with today’s consumer.</p>
 					{(() => {
 						const firstRow = brands.slice(0, 4);
