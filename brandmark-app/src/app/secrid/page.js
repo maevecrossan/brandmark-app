@@ -101,17 +101,17 @@ export default function SecridPage() {
 						/>
 					</div>
 
-					{/* Card 3 */}
-					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-						<Image
-							src="/images/secrid/core-lifestyle-vintage-teal-5.jpg"
-							alt="Lifestyle shot in vintage teal"
-							fill
-							quality={85}
-							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-							className="object-cover"
-						/>
-					</div>
+          {/* Card 3 */}
+          <div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
+            <Image
+              src="/images/secrid/secrid-premium-emboss-diamond-mw-bordeaux-naplak-mw-red.jpg"
+              alt="Premium Emboss Diamond Bordeaux and Naplak Red"
+              fill
+              quality={85}
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              className="object-cover"
+            />
+          </div>
 				</div>
 
 				{/* Secondary row */}
