@@ -29,13 +29,13 @@ export default function Navbar() {
 			<div className="flex flex-wrap items-center justify-between mx-auto p-4 focus:ring-2 focus:ring-gray-200">
 				<a href="/" className="flex flex-1 items-center space-x-3 rtl:space-x-reverse" onClick={closeOnNavigate}>
 					<Image
-						src="/assets/logo-no-bg.png"
+						src="/images/brandmark/logo-no-bg.png"
 						alt="Brandmark Logo"
 						width={32}
 						height={32}
 						className="inline-block mr-1"
 					/>
-					<span className="text-2xl font-semibold whitespace-nowrap">Brandmark</span>
+					<span className="font-eurostile-extended text-xl font-semibold whitespace-nowrap">Brandmark</span>
 				</a>
 				<div className="flex flex-1 justify-end md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 					<button
