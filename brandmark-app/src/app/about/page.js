@@ -68,6 +68,39 @@ export default function About() {
 					</div>
 				</div>
 			</section>
+
+			{/* Tradeshows */}
+			<section className="max-w-6xl mx-auto px-6 py-12">
+				<h3 className="font-eurostile-extended text-2xl md:text-3xl font-bold text-center mb-4">Our Tradeshows</h3>
+				<div className="max-w-3xl mx-auto text-center text-gray-800 mb-8 space-y-4">
+					<p>
+						Twice a year we exhibit at the RDS in Dublin, taking part in both Showcase (January) and the Autumn Gift & Home Fair (August). These key events give us the opportunity to present new collections, connect with retailers, and strengthen partnerships.
+					</p>
+					<p>
+						We regularly invite members from our brands to join us, as we believe their presence is essential, helping them to better understand the Irish market, meet buyers face-to-face, and communicate their brand values directly.
+					</p>
+				</div>
+				<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+					<div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow">
+						<Image
+							src="/images/brandmark/trade-show-1.jpg"
+							alt="Tradeshows"
+							fill
+							sizes="(min-width: 768px) 50vw, 100vw"
+							className="object-cover object-[center_85%]"
+						/>
+					</div>
+					<div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow">
+						<Image
+							src="/images/brandmark/trade-show-3.jpg"
+							alt="Tradeshows"
+							fill
+							sizes="(min-width: 768px) 50vw, 100vw"
+							className="object-cover object-[center_70%]"
+						/>
+					</div>
+				</div>
+			</section>
 		</div>
 	);
 }
