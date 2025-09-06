@@ -32,6 +32,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <div className="font-semibold">Lee Graham</div>
+                <div className="italic">Director/Agent</div>
                 <div>
                   <a href="mailto:lee@brandmark.ie" className="underline hover:text-teal">lee@brandmark.ie</a>
                 </div>
@@ -41,11 +42,19 @@ export default function Footer() {
               </li>
               <li className="pt-2">
                 <div className="font-semibold">Lucy Dunne</div>
+                <div className="italic">Associate Director</div>
                 <div>
                   <a href="mailto:lucy@brandmark.ie" className="underline hover:text-teal">lucy@brandmark.ie</a>
                 </div>
                 <div>
                   <a href="tel:+353873978358" className="hover:text-teal">+353 873978358</a>
+                </div>
+              </li>
+              <li className="pt-2">
+                <div className="font-semibold">Gerry Graham</div>
+                <div className="italic">Road Sales</div>
+                <div>
+                  <a href="mailto:gerry@brandmark.ie" className="underline hover:text-teal">gerry@brandmark.ie</a>
                 </div>
               </li>
             </ul>
