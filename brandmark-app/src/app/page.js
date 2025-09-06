@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeroCarousel from "./components/HeroCarousel";
 
 export default function Home() {
 	const brands = [
@@ -14,20 +15,38 @@ export default function Home() {
 
 	return (
 		<div className="w-full">
-			{/* Hero Section */}
-			<section id="hero">
-				<div className="w-full mx-auto text-center px-6 bg-mist/70 py-12 rounded-b-lg">
-					<Image
-						src="/images/brandmark/logo-no-bg.png"
-						alt="Brandmark Logo"
-						width={200}
-						height={100}
-						className="mx-auto mb-6"
-					/>
-					<h1 className="font-eurostile-extended text-4xl md:text-5xl font-bold mb-6 mx-auto flex items-center justify-center">We Are Brandmark</h1>
-					<p className="font-eurostile-condensed text-center text-xl md:text-xl leading-relaxed text-gray-800">
-						Connecting world-class brands with the Irish market
-					</p>
+			{/* Hero Section with Carousel Background */}
+			<section id="hero" className="relative w-full h-[42vh] md:h-[60vh] overflow-hidden rounded-b-lg">
+				{(() => {
+					const slides = [
+						{ src: "/images/secrid/secrid-premium-emboss-lines-fluted-basco-cards.jpg", alt: "Secrid Embossed & Fluted Cardprotectors" },
+						{ src: "/images/cluse/flat-lay-belisenna-cw15004,-cw15005.jpg", alt: "Cluse watches" },
+						{ src: "/images/izipizi/baby-1.jpg", alt: "Izipizi eyewear for kids" },
+						{ placeholderLabel: "Chipolo — Hero Placeholder", placeholderNote: "2400 x 1350 (16:9)" },
+						{ src: "/images/estella-bartlett/estella-bartlett-15.webp", alt: "Estella Bartlett jewellery" },
+						{ src: "/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg", alt: "Eat My Socks Hotdog" },
+						{ src: "/images/doiy/OLIVIA_AMB1_300.jpg", alt: "DOIY OLIVIA design" },
+					];
+					return (
+						<HeroCarousel slides={slides} imageClassName="object-cover object-[center_60%]" />
+					);
+				})()}
+
+				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
+				<div className="relative z-10 flex items-center justify-center h-full">
+					<div className="w-full mx-auto text-center px-6">
+						<Image
+							src="/images/brandmark/logo-no-bg.png"
+							alt="Brandmark Logo"
+							width={200}
+							height={100}
+							className="mx-auto mb-4 drop-shadow invert"
+						/>
+						<h1 className="font-eurostile-extended text-4xl md:text-5xl font-bold mb-3 text-white">We Are Brandmark</h1>
+						<p className="font-eurostile-condensed text-xl md:text-2xl leading-relaxed text-white/90">
+							Connecting world-class brands with the Irish market
+						</p>
+					</div>
 				</div>
 			</section>
 			
