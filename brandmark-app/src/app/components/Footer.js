@@ -1,7 +1,69 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+function ObfuscatedEmail({ user, domain, tld, label, className = "", clickToReveal = false, revealLabel = "Reveal email" }) {
+  const [addr, setAddr] = useState("");
+  const [revealed, setRevealed] = useState(!clickToReveal);
+
+  useEffect(() => {
+    if (!clickToReveal) {
+      // Assemble on client to avoid exposing in SSR HTML
+      setAddr(`${user}\u0040${domain}.${tld}`);
+    }
+  }, [user, domain, tld, clickToReveal]);
+
+  const onReveal = () => {
+    if (!revealed) {
+      setAddr(`${user}\u0040${domain}.${tld}`);
+      setRevealed(true);
+    }
+  };
+
+  if (!revealed) {
+    return (
+      <button
+        type="button"
+        onClick={onReveal}
+        className={`underline text-teal hover:text-black focus:outline-none focus:ring-2 focus:ring-teal/50 rounded ${className}`}
+        aria-label={`Reveal email for ${user}`}
+      >
+        {revealLabel}
+      </button>
+    );
+  }
+
+  if (!addr) return <span className="sr-only">Email hidden until page loads</span>;
+  return (
+    <a
+      href={`mailto:${addr}`}
+      className={`underline hover:text-teal ${className}`}
+      rel="nofollow noopener"
+    >
+      {label || addr}
+    </a>
+  );
+}
+
+function ObfuscatedTel({ country = "+353", number, label, className = "" }) {
+  const [href, setHref] = useState("");
+  const [display, setDisplay] = useState("");
+  useEffect(() => {
+    const digits = `${country}${number}`.replace(/\s+/g, "");
+    setHref(`tel:${digits}`);
+    // Simple readable mask e.g. +353 879 428 719
+    const pretty = `${country} ${number}`;
+    setDisplay(pretty);
+  }, [country, number]);
+  if (!href) return <span className="sr-only">Phone hidden until page loads</span>;
+  return (
+    <a href={href} className={`hover:text-teal ${className}`} rel="nofollow noopener">
+      {label || display}
+    </a>
+  );
+}
 
 export default function Footer() {
   return (
@@ -34,27 +96,27 @@ export default function Footer() {
                 <div className="font-semibold">Lee Graham</div>
                 <div className="italic">Director/Agent</div>
                 <div>
-                  <a href="mailto:lee@brandmark.ie" className="underline hover:text-teal">lee@brandmark.ie</a>
+                  <ObfuscatedEmail user="lee" domain="brandmark" tld="ie" clickToReveal revealLabel="Click to view email" />
                 </div>
                 <div>
-                  <a href="tel:+353879428719" className="hover:text-teal">+353 879428719</a>
+                  <ObfuscatedTel country="+353" number="879 428 719" />
                 </div>
               </li>
               <li className="pt-2">
                 <div className="font-semibold">Lucy Dunne</div>
                 <div className="italic">Associate Director</div>
                 <div>
-                  <a href="mailto:lucy@brandmark.ie" className="underline hover:text-teal">lucy@brandmark.ie</a>
+                  <ObfuscatedEmail user="lucy" domain="brandmark" tld="ie" clickToReveal revealLabel="Click to reveal email" />
                 </div>
                 <div>
-                  <a href="tel:+353873978358" className="hover:text-teal">+353 873978358</a>
+                  <ObfuscatedTel country="+353" number="873 978 358" />
                 </div>
               </li>
               <li className="pt-2">
                 <div className="font-semibold">Gerry Graham</div>
                 <div className="italic">Road Sales</div>
                 <div>
-                  <a href="mailto:gerry@brandmark.ie" className="underline hover:text-teal">gerry@brandmark.ie</a>
+                  <ObfuscatedEmail user="gerry" domain="brandmark" tld="ie" clickToReveal revealLabel="Click to reveal" />
                 </div>
               </li>
             </ul>
