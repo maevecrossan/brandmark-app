@@ -12,12 +12,14 @@ export default function EstellaBartlettPage() {
         <Image
           src="/images/estella-bartlett/estella-bartlett-12.webp"
           alt="Estella Bartlett lifestyle hero"
+          aria-describedby="eb-hero-credit"
           fill
           priority
           quality={100}
           sizes="100vw"
           className="object-cover object-[center_70%]"
         />
+        <p id="eb-hero-credit" className="sr-only">Images © Estella Bartlett — used with permission.</p>
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
         <div className="absolute inset-0 flex items-end md:items-center">
           <div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
@@ -35,6 +37,7 @@ export default function EstellaBartlettPage() {
             <p className="mt-3 text-white/90 max-w-xl">
               Delicate, meaningful jewellery and accessories designed in London.
             </p>
+            <p className="mt-2 text-xs text-white/80">Images © Estella Bartlett — used with permission.</p>
           </div>
         </div>
       </section>

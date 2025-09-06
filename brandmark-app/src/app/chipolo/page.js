@@ -13,6 +13,7 @@ export default function ChipoloPage() {
 				<div
 					className="absolute inset-0 flex items-center justify-center text-center"
 					aria-label="Chipolo hero image placeholder"
+					aria-describedby="chipolo-hero-credit"
 				>
 					<div className="w-full h-full bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
 					<div className="absolute inset-0 flex items-center justify-center">
@@ -23,6 +24,7 @@ export default function ChipoloPage() {
 						</div>
 					</div>
 				</div>
+				<p id="chipolo-hero-credit" className="sr-only">Images © Chipolo — used with permission.</p>
 				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 				<div className="absolute inset-0 flex items-end md:items-center">
 					{/**
@@ -50,6 +52,7 @@ export default function ChipoloPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Find your things faster with loud, smart Bluetooth trackers.
 						</p>
+						<p className="mt-2 text-xs text-white/80">Images © Chipolo — used with permission.</p>
 					</div>
 				</div>
 			</section>

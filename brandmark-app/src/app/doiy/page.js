@@ -12,12 +12,14 @@ export default function DOIYPage() {
 				<Image
 					src="/images/doiy/OLIVIA_AMB1_300.jpg"
 					alt="DOIY lifestyle hero OLIVIA"
+					aria-describedby="doiy-hero-credit"
 					fill
 					priority
 					quality={90}
 					sizes="100vw"
 					className="object-cover"
 				/>
+				<p id="doiy-hero-credit" className="sr-only">Images © DOIY — used with permission.</p>
 				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 				<div className="absolute inset-0 flex items-end md:items-center">
 					<div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
@@ -35,6 +37,7 @@ export default function DOIYPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Playful, design-led home objects that tell stories.
 						</p>
+						<p className="mt-2 text-xs text-white/80">Images © DOIY — used with permission.</p>
 					</div>
 				</div>
 			</section>

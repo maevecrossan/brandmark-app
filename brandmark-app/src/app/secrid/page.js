@@ -12,12 +12,14 @@ export default function SecridPage() {
 				<Image
 					src="/images/secrid/secrid-basco-mw-brown.jpg"
 					alt="Secrid basco brown cardprotector"
+					aria-describedby="secrid-hero-credit"
 					fill
 					priority
 					quality={90}
 					sizes="100vw"
 					className="object-cover object-[center_70%]"
 				/>
+				<p id="secrid-hero-credit" className="sr-only">Images © Secrid — used with permission.</p>
 				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 				<div className="absolute inset-0 flex items-end md:items-center">
 					<div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
@@ -35,6 +37,7 @@ export default function SecridPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Award-winning wallets, engineered in the Netherlands. Compact, secure, and designed to last.
 						</p>
+						<p className="mt-2 text-xs text-white/80">Images © Secrid — used with permission.</p>
 					</div>
 				</div>
 			</section>
