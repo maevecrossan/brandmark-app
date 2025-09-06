@@ -10,28 +10,28 @@ export default function SecridPage() {
 			{/* Hero */}
 			<section className="relative w-full h-[42vh] md:h-[60vh] overflow-hidden rounded-b-lg">
 				<Image
-					src="/images/secrid/secrid-bw-matte-stack.jpg"
-					alt="Secrid wallet stack lifestyle image"
+					src="/images/secrid/secrid-basco-mw-brown.jpg"
+					alt="Secrid basco brown cardprotector"
 					fill
 					priority
 					quality={90}
 					sizes="100vw"
-					className="object-cover"
+					className="object-cover object-[center_70%]"
 				/>
 				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 				<div className="absolute inset-0 flex items-end md:items-center">
 					<div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
-            <div className="inline-block">
-              <Image
-                src="/images/secrid/secrid_logo.png"
-                alt="Secrid logo"
-                width={240}
-                height={64}
-                priority
-                sizes="(min-width: 768px) 240px, 180px"
-                className="drop-shadow object-contain w-[180px] h-auto md:w-[240px] invert"
-              />
-            </div>
+						<div className="inline-block">
+							<Image
+								src="/images/secrid/secrid_logo.png"
+								alt="Secrid logo"
+								width={240}
+								height={64}
+								priority
+								sizes="(min-width: 768px) 240px, 180px"
+								className="drop-shadow object-contain w-[180px] h-auto md:w-[240px] invert"
+							/>
+						</div>
 						<p className="mt-3 text-white/90 max-w-xl">
 							Award-winning wallets, engineered in the Netherlands. Compact, secure, and designed to last.
 						</p>
@@ -80,8 +80,8 @@ export default function SecridPage() {
 					{/* Card 1 */}
 					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-basco-mw-brown.jpg"
-							alt="Secrid Basco MW Brown"
+							src="/images/secrid/secrid-cardprotector-fluted-orange-4.jpg"
+							alt="Secrid Fluted Orange Cardprotector"
 							fill
 							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -101,17 +101,17 @@ export default function SecridPage() {
 						/>
 					</div>
 
-          {/* Card 3 */}
-          <div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-            <Image
-              src="/images/secrid/secrid-premium-emboss-diamond-mw-bordeaux-naplak-mw-red.jpg"
-              alt="Premium Emboss Diamond Bordeaux and Naplak Red"
-              fill
-              quality={85}
-              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-              className="object-cover"
-            />
-          </div>
+					{/* Card 3 */}
+					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
+						<Image
+							src="/images/secrid/secrid-premium-emboss-diamond-mw-bordeaux-naplak-mw-red.jpg"
+							alt="Premium Emboss Diamond Bordeaux and Naplak Red Cardprotectors"
+							fill
+							quality={85}
+							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+							className="object-cover"
+						/>
+					</div>
 				</div>
 
 				{/* Secondary row */}
@@ -119,7 +119,7 @@ export default function SecridPage() {
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/secrid/secrid-emboss-lines-mw-black-1-logo.jpg"
-							alt="Emboss Lines MW Black"
+							alt="Emboss Lines MW Black Cardprotector"
 							fill
 							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
@@ -129,7 +129,7 @@ export default function SecridPage() {
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/secrid/secrid-stitch-floral-mw-olive.jpg"
-							alt="Stitch Floral MW Olive"
+							alt="Stitch Floral MW Olive Cardprotector"
 							fill
 							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
