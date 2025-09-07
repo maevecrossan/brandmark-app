@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## **Getting Started**
 
 First, run the development server:
 
@@ -21,20 +21,21 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ---
-## Planning
-### Client Brief
+## **Planning**
+### **Client Brief**
 The following is the brief submitted by the client.
 
 [Brandmark Website Brief](/brandmark-app/public/assets/Brandmark%20Website%20Brief%20REVISED.pdf)
 
-#### Client MVP Agreement
+#### **Client MVP Agreement**
 Some suggested features were outside the scope of the original agreement, and so the client agreed some features in the brief should be dropped. The following two features were not included in the MVP:
     - CMS integration
     - Visible Instagram feed
 
 All other requested features were included.
 
-#### Target Audience
+ 
+#### **Target Audience**
 
 As the website owner, I...
 
@@ -62,30 +63,30 @@ As a new brand, I...
     - Want assurance my brand will be presented with care and professionalism.
 
 
-### Wireframes
+### **Wireframes**
 
 ---
-## Features
+## **Features**
 
-### Components 
+### **Components**
 - Navbar: Sticky, responsive navigation with mobile menu toggle, active-route highlighting via `usePathname`, accessible labelling, and subtle glass/blur styling.
 - Hero Carousel: Client-side fading carousel with timed rotation, responsive `next/image`, optional placeholders, and gradient overlays for legibility.
 - Footer: Full contact block with client-side email and telephone obfuscation (spam resistant), social links (Instagram, LinkedIn via Font Awesome), embedded Google Map, and address deep-link to Maps.
 
-### Homepage
+### **Homepage**
 - Hero with rotating brand lifestyle imagery and overlaid tagline.
 - Welcome section introducing Brandmark and CTA to About.
 - Brands grid showcasing logos for Secrid, Cluse, Izipizi, Chipolo, Estella Bartlett, Eat My Socks, and DOIY, with CTA to Portfolio.
 
-### About
+### **About**
 - Hero image, “Who We Are” intro, and “What Drives Us” value cards (Partnership, Curation, Service).
 - Tradeshows section describing Showcase and Autumn Gift & Home Fair with supporting imagery.
 
-### Portfolio
+### **Portfolio**
 - Brand portfolio with filterable categories (multi-select chips) and responsive cards.
 - Each card shows logo, short description, category badges, and deep-link to brand page.
 
-### Brand Pages
+### **Brand Pages**
 Each brand page has the same layout.
 - Secrid: Hero with credit note, concise intro, detailed “About Secrid” card, and image gallery.
 - Cluse: Hero, minimalist design intro, “About CLUSE” card, and gallery.
@@ -95,14 +96,14 @@ Each brand page has the same layout.
 - Eat My Socks: Hero, playful gifting intro, sustainability notes, and gallery.
 - DOIY: Hero, design-led intro, brand story about card, and gallery.
 
-### Projects
+### **Projects**
 - Three case studies highlighting Secrid installations: Piaggio APE feature, shop‑in‑shop build, and nationwide wall features, each with imagery and descriptions.
 
-### Contact
+### **Contact**
 - Opening hours, linked address card to Google Maps, and team contacts.
 - Obfuscated emails and tel links for Lee, Lucy, and Gerry; headshots for Lee and Lucy.
 
-### Platform & UX
+### **Platform & UX**
 - Next.js App Router with route‑based pages and a custom 404.
 - Performance: Optimised images via `next/image` with `sizes`, `priority`, and quality tuning.
 - Accessibility: Meaningful alt text, ARIA labels, keyboard‑friendly controls, and screen‑reader‑only credits.
@@ -110,10 +111,10 @@ Each brand page has the same layout.
 - PWA basics: Web App Manifest and full favicon/touch‑icon set wired in the layout head.
 
 ---
-## Credits & Resources
+## **Credits & Resources**
 
 | Use | Resource | Notes |
-|----------------------------|------------------------|----------|
+|----------------------------|---------------|----------|
 | Styling | Tailwind CSS |  |
 | Create favicon, web app manifest & touch icons | https://realfavicongenerator.net/ |  |
 | Check functionality of favicon, web app manifest & touch icons | https://realfavicongenerator.net/favicon-checker |  |
