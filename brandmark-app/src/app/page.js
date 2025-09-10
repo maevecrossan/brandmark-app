@@ -16,7 +16,7 @@ export default function Home() {
 	return (
 		<div className="w-full">
 			{/* Hero Section with Carousel Background */}
-			<section id="hero" className="relative w-full h-[42vh] md:h-[60vh] overflow-hidden rounded-b-lg">
+			<section id="hero" className="relative w-full min-h-[60vh] md:min-h-[60vh] lg:min-h-[70vh] overflow-hidden rounded-b-lg">
 				{(() => {
 					const slides = [
 						{ src: "/images/secrid/secrid-premium-emboss-lines-fluted-basco-cards.jpg", alt: "Secrid Embossed & Fluted Cardprotectors" },
@@ -33,17 +33,17 @@ export default function Home() {
 				})()}
 
 				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
-				<div className="relative z-10 flex items-center justify-center h-full">
-					<div className="w-full mx-auto text-center px-6">
+				<div className="absolute inset-0 z-10 flex items-center justify-center px-6 py-10 sm:py-14">
+					<div className="w-full mx-auto text-center">
 						<Image
 							src="/images/brandmark/logo-no-bg.png"
 							alt="Brandmark Logo"
-							width={200}
-							height={100}
+							width={180}
+							height={90}
 							className="mx-auto mb-4 drop-shadow invert"
 						/>
-						<h1 className="font-eurostile-extended text-4xl md:text-5xl font-bold mb-3 text-white">We Are Brandmark</h1>
-						<p className="font-eurostile-condensed text-xl md:text-2xl leading-relaxed text-white/90">
+						<h1 className="font-eurostile-extended text-3xl md:text-5xl font-bold mb-3 text-white">We Are Brandmark</h1>
+						<p className="font-eurostile-condensed text-lg md:text-2xl leading-relaxed text-white/90 mb-4">
 							Connecting world-class brands with the Irish market
 						</p>
 					</div>
