@@ -110,10 +110,8 @@ export default function ClusePage() {
 							className="object-cover"
 						/>
 					</div>
-				</div>
 
-				{/* Secondary row */}
-				<div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+					{/* Card 4 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/cluse/fw25_cw11821cb13377cb13367.jpg"
@@ -124,10 +122,22 @@ export default function ClusePage() {
 							className="object-cover object-center"
 						/>
 					</div>
+					{/* Card 5 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/cluse/fw25_cx04204cw15501-cb13370.jpg"
 							alt="CLUSE FW25 collection"
+							fill
+							quality={85}
+							sizes="(min-width: 640px) 50vw, 100vw"
+							className="object-cover object-center"
+						/>
+					</div>
+					{/* Card 6 */}
+					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+						<Image
+							src="/images/cluse/fw25_cw11910cb13376ce13343ce13336.jpg"
+							alt="CLUSE FW25 detail group"
 							fill
 							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"

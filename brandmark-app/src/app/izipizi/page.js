@@ -110,10 +110,8 @@ export default function IzipiziPage() {
 							className="object-cover"
 						/>
 					</div>
-				</div>
 
-				{/* Secondary row */}
-				<div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+					{/* Card 4 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/izipizi/REA1600201X-IZI_OFFICE_READING_Tortoise_01_2_1_.jpg"
@@ -124,10 +122,22 @@ export default function IzipiziPage() {
 							className="object-cover"
 						/>
 					</div>
+					{/* Card 5 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/izipizi/slmsdpac69-izi_d_sun_light_tortoise_polarized_01_1_.jpg"
 							alt="IZIPIZI sun light tortoise polarized"
+							fill
+							quality={85}
+							sizes="(min-width: 640px) 50vw, 100vw"
+							className="object-cover"
+						/>
+					</div>
+					{/* Card 6 */}
+					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+						<Image
+							src="/images/izipizi/couple-1.jpg"
+							alt="IZIPIZI lifestyle couple"
 							fill
 							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"

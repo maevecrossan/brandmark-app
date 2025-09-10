@@ -140,10 +140,6 @@ export default function ChipoloPage() {
 							</div>
 						</div>
 					</div>
-				</div>
-
-				{/* Secondary row */}
-				<div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
 					{/* Wide Card 4 placeholder — 2000x1400 (10:7 ~ 1.43) */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
@@ -161,6 +157,17 @@ export default function ChipoloPage() {
 						<div className="absolute inset-0 flex items-center justify-center">
 							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
 								<p className="font-semibold">Gallery Image 5</p>
+								<p className="text-xs">Target: 2000 x 1400 px (~4:3)</p>
+							</div>
+						</div>
+					</div>
+
+					{/* Wide Card 6 placeholder — 2000x1400 (10:7 ~ 1.43) */}
+					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
+						<div className="absolute inset-0 flex items-center justify-center">
+							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
+								<p className="font-semibold">Gallery Image 6</p>
 								<p className="text-xs">Target: 2000 x 1400 px (~4:3)</p>
 							</div>
 						</div>

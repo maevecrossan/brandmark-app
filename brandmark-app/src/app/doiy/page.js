@@ -113,9 +113,6 @@ export default function DOIYPage() {
 							className="object-cover"
 						/>
 					</div>
-				</div>
-
-				<div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/doiy/DYVASBUXS_AMB6_300.jpg"
@@ -134,6 +131,16 @@ export default function DOIYPage() {
 							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover object-[center_70%]"
+						/>
+					</div>
+					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+						<Image
+							src="/images/doiy/FASTFOOD_COLLECTION6_300.jpg"
+							alt="DOIY collection — Fast Food"
+							fill
+							quality={85}
+							sizes="(min-width: 640px) 50vw, 100vw"
+							className="object-cover"
 						/>
 					</div>
 				</div>

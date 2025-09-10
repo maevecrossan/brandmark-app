@@ -115,10 +115,8 @@ export default function SecridPage() {
 							className="object-cover"
 						/>
 					</div>
-				</div>
 
-				{/* Secondary row */}
-				<div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+					{/* Card 4 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/secrid/secrid-emboss-lines-mw-black-1-logo.jpg"
@@ -129,10 +127,22 @@ export default function SecridPage() {
 							className="object-cover"
 						/>
 					</div>
+					{/* Card 5 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
 							src="/images/secrid/secrid-stitch-floral-mw-olive.jpg"
 							alt="Stitch Floral MW Olive Cardprotector"
+							fill
+							quality={85}
+							sizes="(min-width: 640px) 50vw, 100vw"
+							className="object-cover"
+						/>
+					</div>
+					{/* Card 6 */}
+					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
+						<Image
+							src="/images/secrid/secrid-bw-matte-stack.jpg"
+							alt="Secrid Matte stack collection"
 							fill
 							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
