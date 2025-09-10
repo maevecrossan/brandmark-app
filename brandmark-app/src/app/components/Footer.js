@@ -154,7 +154,7 @@ export default function Footer() {
         </section>
 
         <div className="text-xs text-gray-500 border-t border-gray-200 pt-4 text-center">
-          © {new Date().getFullYear()} Brandmark. All rights reserved.
+          © {new Date().getFullYear()} Brandmark Agencies. All rights reserved.
           <p className="mt-2">
             Disclaimer: Brand names, logos, and images are trademarks or copyrighted works of their respective owners and are used with permission.
           </p>

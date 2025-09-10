@@ -36,7 +36,7 @@ export default function Navbar() {
 						height={32}
 						className="inline-block mr-1"
 					/>
-					<span className="font-eurostile-extended text-xl font-semibold whitespace-nowrap">Brandmark</span>
+					<span className="font-eurostile-extended text-lg font-semibold whitespace-nowrap">Brandmark Agencies</span>
 				</Link>
 				<div className="flex flex-1 justify-end md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 					<button
