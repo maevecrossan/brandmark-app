@@ -19,6 +19,7 @@
 
 :root {
   --background: #ffffff;
+  --foreground: #0a0a0a;
 }
 
 @theme inline {
@@ -35,12 +36,7 @@
   --color-teal: #4b8484;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Removed dark mode media query to keep a consistent light theme */
 
 /* Utility classes to use custom brand fonts */
 .font-eurostile-extended { font-family: var(--font-eurostile-extended); }
