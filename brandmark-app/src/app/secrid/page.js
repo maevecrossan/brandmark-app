@@ -61,13 +61,13 @@ export default function SecridPage() {
 							Secrid is a Dutch brand renowned for its innovative, secure, and sustainable wallets that seamlessly blend fashion with industrial design. Founded in 2009, Secrid emerged from a desire to address the evolving needs of modern society, where digital and physical worlds intersect.
 						</p>
 						<p>
-							At the heart of Secrid's product line is the patented Cardprotector, a slim aluminum case that shields cards from bending, breaking, and unauthorized RFID scanning. This core innovation is complemented by various wallet models, including the Miniwallet, Slimwallet, and Twinwallet, each designed to cater to different storage needs while maintaining a compact form.
+							At the heart of Secrid&#39;s product line is the patented Cardprotector, a slim aluminum case that shields cards from bending, breaking, and unauthorized RFID scanning. This core innovation is complemented by various wallet models, including the Miniwallet, Slimwallet, and Twinwallet, each designed to cater to different storage needs while maintaining a compact form.
 						</p>
 						<p>
-							Secrid's mission extends beyond functionality; the brand is deeply committed to social and environmental responsibility. All products are manufactured in the Netherlands, with assembly taking place in social enterprises that provide employment opportunities for individuals with disabilities. Secrid sources high-quality materials from European producers and has been carbon-neutral since 2022, actively offsetting its emissions through reforestation projects.
+							Secrid&#39;s mission extends beyond functionality; the brand is deeply committed to social and environmental responsibility. All products are manufactured in the Netherlands, with assembly taking place in social enterprises that provide employment opportunities for individuals with disabilities. Secrid sources high-quality materials from European producers and has been carbon-neutral since 2022, actively offsetting its emissions through reforestation projects.
 						</p>
 						<p>
-							As a Certified B Corporation, Secrid upholds rigorous standards of social and environmental performance, transparency, and accountability. The brand's philosophy, termed “Industrial Evolution,” emphasizes the creation of products that are better, more sustainable, and more valuable than their predecessors, encouraging consumers to make conscious choices that positively impact the world.
+							As a Certified B Corporation, Secrid upholds rigorous standards of social and environmental performance, transparency, and accountability. The brand&#39;s philosophy, termed “Industrial Evolution,” emphasizes the creation of products that are better, more sustainable, and more valuable than their predecessors, encouraging consumers to make conscious choices that positively impact the world.
 						</p>
 
 						<a href="https://secrid.com/en-global/" className="inline-block mt-4 text-teal hover:underline" target="_blank" rel="noopener noreferrer">

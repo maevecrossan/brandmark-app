@@ -56,7 +56,7 @@ export default function DOIYPage() {
 					<h3 className="font-eurostile-extended text-xl md:text-2xl font-bold">About DOIY</h3>
 					<div className="mt-4 space-y-4 text-gray-800 leading-relaxed">
 						<p>
-							DOIY Design is a Barcelona-based brand established in 2008 by Jaime and Elodie, renowned for crafting playful and emotionally resonant home accessories that blend functionality with artistic flair. Their mission centers on transforming everyday objects into unique, story-driven pieces that infuse spaces with joy and creativity. Drawing inspiration from youth culture, nostalgia, and fashion, DOIY's designs often challenge conventional norms, offering a fresh perspective on home decor.
+							DOIY Design is a Barcelona-based brand established in 2008 by Jaime and Elodie, renowned for crafting playful and emotionally resonant home accessories that blend functionality with artistic flair. Their mission centers on transforming everyday objects into unique, story-driven pieces that infuse spaces with joy and creativity. Drawing inspiration from youth culture, nostalgia, and fashion, DOIY&#39;s designs often challenge conventional norms, offering a fresh perspective on home decor.
 						</p>
 						<p>
 							Each product is meticulously designed to evoke positive emotions—be it surprise, amusement, or delight—ensuring that every item not only serves a purpose but also tells a story. This philosophy is evident in their diverse range of products, from quirky kitchen tools to avant-garde home accents, all characterized by their distinctive aesthetic and thoughtful design.

@@ -99,10 +99,9 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<head>
 				{/* Organization JSON-LD for richer SERP */}
-				<script
-					type="application/ld+json"
-					// eslint-disable-next-line react/no-danger
-					dangerouslySetInnerHTML={{
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
 						__html: JSON.stringify({
 							'@context': 'https://schema.org',
 							'@type': 'Organization',
