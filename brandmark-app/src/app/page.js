@@ -42,7 +42,7 @@ export default function Home() {
 							height={90}
 							className="mx-auto mb-4 drop-shadow invert"
 						/>
-						<h1 className="font-eurostile-extended text-3xl md:text-5xl font-bold mb-3 text-white">We Are Brandmark</h1>
+						<h1 className="font-eurostile-extended text-xl md:text-2xl font-bold mb-3 text-white">We Are <span className="text-2xl md:text-5xl"><br />Brandmark</span></h1>
 						<p className="font-eurostile-condensed text-lg md:text-2xl leading-relaxed text-white/90 mb-4">
 							Connecting world-class brands with the Irish market
 						</p>
