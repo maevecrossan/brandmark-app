@@ -3,7 +3,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 // Derive site URL for canonical/OG using env when available
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+// Priority: NEXT_PUBLIC_SITE_URL (manual) -> VERCEL_URL (auto) -> localhost
+const rawSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || "http://localhost:3000";
+const siteUrl = rawSiteUrl.startsWith("http") ? rawSiteUrl : `https://${rawSiteUrl}`;
 
 export const metadata = {
 	metadataBase: new URL(siteUrl),
