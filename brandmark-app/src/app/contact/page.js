@@ -64,10 +64,10 @@ export default function Contact() {
 				</div>
 			</section>
 
-			<section className="max-w-4xl mx-auto px-6 pb-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-start justify-items-center">
+			<section className="max-w-6xl mx-auto px-6 pb-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
 				{/* Opening Hours */}
-				<div className="">
-					<div className="block bg-white rounded-lg p-6 md:p-12 shadow border border-gray-200 hover:shadow-md transition w-full max-w-md mx-auto text-center">
+				<div>
+					<div className="block bg-white rounded-lg p-6 md:p-12 shadow-sm border border-gray-200 hover:shadow-md transition w-full h-full text-left">
 						<div className="flex items-center gap-2 text-teal">
 							<h2 className="font-eurostile-extended text-lg md:text-xl font-bold text-gray-900">
 								<FontAwesomeIcon icon={faClock} className="text-teal text-sm mr-2 mb-0.5" />
@@ -82,14 +82,10 @@ export default function Contact() {
 
 				{/* Address */}
 				<div>
-					<a
-						href="https://maps.app.goo.gl/TufUvwNdD5p68ryw8"
-						target="_blank"
-						rel="noopener noreferrer"
-						aria-label="Open Brandmark Agencies location in Google Maps"
-						className="block bg-white rounded-lg p-6 md:p-12 shadow-sm border border-gray-200 hover:shadow-md transition w-full max-w-md mx-auto text-left"
+					<div
+						className="block bg-white rounded-lg p-6 md:p-12 shadow-sm border border-gray-200 hover:shadow-md transition w-full h-full text-left"
 					>
-						<div className="flex items-center gap-2 text-teal justify-center">
+						<div className="flex items-center gap-2 text-teal">
 							<FontAwesomeIcon icon={faLocationDot} />
 							<h2 className="font-eurostile-extended text-lg md:text-xl font-bold text-gray-900">Visit us</h2>
 						</div>
@@ -99,14 +95,22 @@ export default function Contact() {
 							<div>Ballymount</div>
 							<div>Dublin, Ireland</div>
 							<div>D24X6CT</div>
-							<div className="mt-3 inline-flex items-center gap-2 text-teal underline">Open in Google Maps</div>
+							<a
+								href="https://www.google.com/maps/search/?api=1&query=Brandmark%20Agencies%2C%20Suite%205%2C%20Unit%2014%20Fashion%20City%2C%20Ballymount%2C%20Dublin%20D24%20X6CT%2C%20Ireland"
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="Open Brandmark Agencies location in Google Maps"
+								className="mt-3 inline-flex items-center gap-2 text-teal underline"
+							>
+								Open in Google Maps
+							</a>
 						</address>
-					</a>
+					</div>
 				</div>
 
 				{/* Team */}
 				<div className="w-full flex justify-center md:col-span-2">
-					<div className="bg-white rounded-lg p-6 md:p-14 shadow-sm border border-gray-200 w-full max-w-2xl mx-auto">
+					<div className="bg-white rounded-lg p-6 md:p-14 shadow-sm border border-gray-200 w-full max-w-none">
 						<h2 className="font-eurostile-extended text-xl md:text-2xl font-bold">Team contacts</h2>
 						<ul className="mt-4 text-gray-800 divide-y divide-gray-200">
 							<li className="flex items-center gap-4 py-4 first:pt-0 last:pb-0">
