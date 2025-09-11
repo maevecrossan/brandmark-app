@@ -152,9 +152,13 @@ export default function Contact() {
 								</div>
 							</li>
 							<li className="flex items-center gap-4 py-4 first:pt-0 last:pb-0">
-								<div className="w-16 h-16 rounded-full bg-gray-200 shrink-0 flex items-center justify-center ring-2 ring-white shadow" aria-hidden>
-									<FontAwesomeIcon icon={faUser} className="text-gray-600 text-2xl" />
-								</div>
+								<Image
+									src="/images/brandmark/gerry-profile.jpg"
+									alt="Portrait of Gerry Graham"
+									width={64}
+									height={64}
+									className="rounded-full object-cover object-[center_100%] w-16 h-16 shrink-0 ring-2 ring-white shadow"
+								/>
 								<div>
 									<div className="font-semibold">Gerry Graham</div>
 									<div className="italic text-sm">Road Sales</div>
