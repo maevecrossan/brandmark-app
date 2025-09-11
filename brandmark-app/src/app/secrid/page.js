@@ -15,7 +15,6 @@ export default function SecridPage() {
 					aria-describedby="secrid-hero-credit"
 					fill
 					priority
-					quality={90}
 					sizes="100vw"
 					className="object-cover object-[center_70%]"
 				/>
@@ -86,7 +85,6 @@ export default function SecridPage() {
 							src="/images/secrid/secrid-cardprotector-fluted-orange-4.jpg"
 							alt="Secrid Fluted Orange Cardprotector"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -98,7 +96,6 @@ export default function SecridPage() {
 							src="/images/secrid/secrid-hammerstone-group-2.jpg"
 							alt="Secrid Hammerstone collection group"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -110,7 +107,6 @@ export default function SecridPage() {
 							src="/images/secrid/secrid-premium-emboss-diamond-mw-bordeaux-naplak-mw-red.jpg"
 							alt="Premium Emboss Diamond Bordeaux and Naplak Red Cardprotectors"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -122,7 +118,6 @@ export default function SecridPage() {
 							src="/images/secrid/secrid-emboss-lines-mw-black-1-logo.jpg"
 							alt="Emboss Lines MW Black Cardprotector"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -133,7 +128,6 @@ export default function SecridPage() {
 							src="/images/secrid/secrid-stitch-floral-mw-olive.jpg"
 							alt="Stitch Floral MW Olive Cardprotector"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -144,7 +138,6 @@ export default function SecridPage() {
 							src="/images/secrid/secrid-bw-matte-stack.jpg"
 							alt="Secrid Matte stack collection"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>

@@ -14,7 +14,6 @@ export default function ClusePage() {
 					alt="CLUSE watches hero collage"
 					fill
 					priority
-					quality={90}
 					sizes="100vw"
 					className="object-cover"
 				/>
@@ -81,7 +80,6 @@ export default function ClusePage() {
 							src="/images/cluse/flat-lay-aravis-cw25602,-cw25603.jpg"
 							alt="CLUSE Aravis flat lay"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -93,7 +91,6 @@ export default function ClusePage() {
 							src="/images/cluse/flat-lay-belisenna-cw15006.jpg"
 							alt="CLUSE Belisenna flat lay"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -105,7 +102,6 @@ export default function ClusePage() {
 							src="/images/cluse/flat-lay-gracieuse-cw11911,-cw11910.jpg"
 							alt="CLUSE Gracieuse flat lay"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -117,7 +113,6 @@ export default function ClusePage() {
 							src="/images/cluse/fw25_cw11821cb13377cb13367.jpg"
 							alt="CLUSE FW25 detail"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover object-center"
 						/>
@@ -128,7 +123,6 @@ export default function ClusePage() {
 							src="/images/cluse/fw25_cx04204cw15501-cb13370.jpg"
 							alt="CLUSE FW25 collection"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover object-center"
 						/>
@@ -139,7 +133,6 @@ export default function ClusePage() {
 							src="/images/cluse/fw25_cw11910cb13376ce13343ce13336.jpg"
 							alt="CLUSE FW25 detail group"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover object-center"
 						/>

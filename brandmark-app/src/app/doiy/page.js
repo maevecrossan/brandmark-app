@@ -15,7 +15,6 @@ export default function DOIYPage() {
 					aria-describedby="doiy-hero-credit"
 					fill
 					priority
-					quality={90}
 					sizes="100vw"
 					className="object-cover"
 				/>
@@ -88,7 +87,6 @@ export default function DOIYPage() {
 							src="/images/doiy/RODEO_AMB2_300.jpg"
 							alt="DOIY product shot RODEO"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -98,7 +96,6 @@ export default function DOIYPage() {
 							src="/images/doiy/DYSPEFFFB_AMB1_300.jpg"
 							alt="DOIY product shot FAST FOOD"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover object-[center_50%]"
 						/>
@@ -108,7 +105,6 @@ export default function DOIYPage() {
 							src="/images/doiy/DYVASROCBL_AMB14_300.jpg"
 							alt="DOIY product shot RODEO"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -118,7 +114,6 @@ export default function DOIYPage() {
 							src="/images/doiy/DYVASBUXS_AMB6_300.jpg"
 							alt="DOIY lifestyle BUTTER"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover object-[center_55%]"
 						/>
@@ -128,7 +123,6 @@ export default function DOIYPage() {
 							src="/images/doiy/FUNFAIR_AMB1_300.jpg"
 							alt="DOIY lifestyle FUNFAIR"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover object-[center_70%]"
 						/>
@@ -138,7 +132,6 @@ export default function DOIYPage() {
 							src="/images/doiy/FASTFOOD_COLLECTION6_300.jpg"
 							alt="DOIY collection — Fast Food"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>

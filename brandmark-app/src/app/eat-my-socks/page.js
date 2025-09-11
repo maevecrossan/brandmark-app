@@ -15,7 +15,6 @@ export default function EatMySocksPage() {
 					aria-describedby="ems-hero-credit"
 					fill
 					priority
-					quality={90}
 					sizes="100vw"
 					className="object-cover"
 				/>
@@ -86,7 +85,6 @@ export default function EatMySocksPage() {
 							src="/images/eat-my-socks/EMSAFFIRCN_AMB6_300.jpg"
 							alt="Eat My Socks product shot Ramen"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover object-[center_70%]"
 						/>
@@ -96,7 +94,6 @@ export default function EatMySocksPage() {
 							src="/images/eat-my-socks/EMSACCHCCR_AMB_300.jpg"
 							alt="Eat My Socks product shot Croissant"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -107,7 +104,6 @@ export default function EatMySocksPage() {
 							src="/images/eat-my-socks/EMSNOCPOX2_AMB1_300.jpg"
 							alt="Eat My Socks product shot Bento Box"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -117,7 +113,6 @@ export default function EatMySocksPage() {
 							src="/images/eat-my-socks/EMSNOCSLACA_AMB_300.jpg"
 							alt="Eat My Socks lifestyle Coffee"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -127,7 +122,6 @@ export default function EatMySocksPage() {
 							src="/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg"
 							alt="Eat My Socks lifestyle Hot Dog"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -137,7 +131,6 @@ export default function EatMySocksPage() {
 							src="/images/eat-my-socks/EMSAFFSOST_AMB6_300.jpg"
 							alt="Eat My Socks lifestyle Soft Serve"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>

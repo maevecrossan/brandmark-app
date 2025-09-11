@@ -15,7 +15,6 @@ export default function EstellaBartlettPage() {
           aria-describedby="eb-hero-credit"
           fill
           priority
-          quality={100}
           sizes="100vw"
           className="object-cover object-[center_70%]"
         />
@@ -85,61 +84,55 @@ export default function EstellaBartlettPage() {
       <section className="max-w-6xl mx-auto px-6 pb-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-            <Image
+          <Image
               src="/images/estella-bartlett/estella-bartlett-2.jpg"
               alt="Estella Bartlett product shot 2"
               fill
-              quality={85}
               sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
               className="object-cover object-[center_70%] md:object-[center_60%]"
             />
           </div>
           <div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-            <Image
+          <Image
               src="/images/estella-bartlett/estella-bartlett-3.jpg"
               alt="Estella Bartlett product shot 3"
               fill
-              quality={85}
               sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
               className="object-cover object-bottom"
             />
           </div>
           <div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-            <Image
+          <Image
               src="/images/estella-bartlett/estella-bartlett-4.jpg"
               alt="Estella Bartlett product shot 4"
               fill
-              quality={85}
               sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
               className="object-cover object-[center_70%]"
             />
           </div>
           <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-            <Image
+          <Image
               src="/images/estella-bartlett/estella-bartlett-5.jpg"
               alt="Estella Bartlett lifestyle 5"
               fill
-              quality={85}
               sizes="(min-width: 640px) 50vw, 100vw"
               className="object-cover object-[center_70%] md:object-[center_60%]"
             />
           </div>
           <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-            <Image
+          <Image
               src="/images/estella-bartlett/estella-bartlett-6.jpg"
               alt="Estella Bartlett lifestyle 6"
               fill
-              quality={85}
               sizes="(min-width: 640px) 50vw, 100vw"
               className="object-cover object-[center_80%] md:object-[center_70%]"
             />
           </div>
           <div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-            <Image
+          <Image
               src="/images/estella-bartlett/estella-bartlett-7.jpg"
               alt="Estella Bartlett lifestyle 7"
               fill
-              quality={85}
               sizes="(min-width: 640px) 50vw, 100vw"
               className="object-cover"
             />

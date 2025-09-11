@@ -14,7 +14,6 @@ export default function IzipiziPage() {
 					alt="IZIPIZI lifestyle hero"
 					fill
 					priority
-					quality={100}
 					sizes="100vw"
 					className="object-cover"
 				/>
@@ -81,7 +80,6 @@ export default function IzipiziPage() {
 							src="/images/izipizi/baby-1.jpg"
 							alt="IZIPIZI baby eyewear"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -93,7 +91,6 @@ export default function IzipiziPage() {
 							src="/images/izipizi/man-1.jpg"
 							alt="IZIPIZI optical eyewear"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -105,7 +102,6 @@ export default function IzipiziPage() {
 							src="/images/izipizi/sun0526701x00-izi_e_sun_crystal_polarized_02.jpg"
 							alt="IZIPIZI polarized sunglasses"
 							fill
-							quality={85}
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -117,7 +113,6 @@ export default function IzipiziPage() {
 							src="/images/izipizi/REA1600201X-IZI_OFFICE_READING_Tortoise_01_2_1_.jpg"
 							alt="IZIPIZI office reading tortoise"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -128,7 +123,6 @@ export default function IzipiziPage() {
 							src="/images/izipizi/slmsdpac69-izi_d_sun_light_tortoise_polarized_01_1_.jpg"
 							alt="IZIPIZI sun light tortoise polarized"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
@@ -139,7 +133,6 @@ export default function IzipiziPage() {
 							src="/images/izipizi/couple-1.jpg"
 							alt="IZIPIZI lifestyle couple"
 							fill
-							quality={85}
 							sizes="(min-width: 640px) 50vw, 100vw"
 							className="object-cover"
 						/>
