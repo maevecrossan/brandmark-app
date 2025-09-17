@@ -5,52 +5,62 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 
 export default function ChipoloPage() {
+	const galleryImages = [
+		{
+			src: "/images/chipolo/Brandmark - 2 - 1600x1200.jpg",
+			alt: "Chipolo tracker lifestyle photo 1",
+		},
+		{
+			src: "/images/chipolo/Brandmark - 3 - 1600x1200.jpg",
+			alt: "Chipolo tracker lifestyle photo 2",
+		},
+		{
+			src: "/images/chipolo/Brandmark - 4 - 1600x1200.jpg",
+			alt: "Chipolo tracker lifestyle photo 3",
+		},
+		{
+			src: "/images/chipolo/Brandmark - 5 - 1600x1200.jpg",
+			alt: "Chipolo tracker lifestyle photo 4",
+		},
+		{
+			src: "/images/chipolo/Brandmark - 6 - 1600x1200.jpg",
+			alt: "Chipolo tracker lifestyle photo 5",
+		},
+		{
+			src: "/images/chipolo/Brandmark - 7 - 1600x1200.jpg",
+			alt: "Chipolo tracker lifestyle photo 6",
+		},
+	];
+
 	return (
 		<div className="w-full">
 			{/* Hero */}
 			<section className="relative w-full h-[42vh] md:h-[60vh] overflow-hidden rounded-b-lg">
-				{/* Placeholder: Hero Image — Recommended 2400x1350 (16:9) */}
-				<div
-					className="absolute inset-0 flex items-center justify-center text-center"
-					aria-label="Chipolo hero image placeholder"
-					aria-describedby="chipolo-hero-credit"
-				>
-					<div className="w-full h-full bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-					<div className="absolute inset-0 flex items-center justify-center">
-						<div className="bg-black/50 text-white px-4 py-2 rounded">
-							<p className="font-semibold">Hero Image Placeholder</p>
-							<p className="text-sm">Target: 2400 x 1350 px (16:9)</p>
-							<p className="text-xs opacity-80">Center-safe area: middle 60%</p>
-						</div>
-					</div>
-				</div>
+				<Image
+					src="/images/chipolo/Brandmark - 1 - 2400x1350.jpg"
+					alt="Chipolo hero imagery"
+					fill
+					priority
+					sizes="100vw"
+					className="object-cover"
+				/>
 				<p id="chipolo-hero-credit" className="sr-only">Images © Chipolo — used with permission.</p>
 				<div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
 				<div className="absolute inset-0 flex items-end md:items-center">
-					{/**
-					 * Responsive text area (hero)
-					 * - Container: `max-w-5xl` ≈ 1024px max width, `px-6` = 24px side padding
-					 * - Text block: paragraph uses `max-w-xl` ≈ 576px max width across breakpoints
-					 * - Position: bottom-left on mobile, vertically centered on `md+`
-					 * - Safe guidance for artwork: keep a ~600px clear area left-of-center to avoid overlap
-					 */}
 					<div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
 						<div className="inline-block">
-							{/* <Image
-								src="/images/chipolo/chipolo_logo.png"
+							<Image
+								src="/images/chipolo/chipolo-logo-no-bg.png"
 								alt="Chipolo logo"
 								width={240}
 								height={64}
 								priority
 								sizes="(min-width: 768px) 240px, 180px"
 								className="drop-shadow object-contain w-[180px] h-auto md:w-[240px] invert"
-							/> */}
+							/>
 						</div>
-						<h1 className="mt-3 text-3xl md:text-4xl font-eurostile-extended font-bold text-white">
-							Logo
-						</h1>
 						<p className="mt-3 text-white/90 max-w-xl">
-							Find your things faster with loud, smart Bluetooth trackers.
+							Smart tracking made simple
 						</p>
 					</div>
 				</div>
@@ -58,12 +68,6 @@ export default function ChipoloPage() {
 
 			{/* Intro */}
 			<section className="max-w-5xl mx-auto px-6 py-10">
-				{/**
-				 * Responsive text area (intro)
-				 * - Section container: `max-w-5xl` ≈ 1024px, `px-6` = 24px side padding
-				 * - Heading scales (`text-2xl` → `md:text-3xl`)
-				 * - Body text flows full container width; aim for ~65ch for ideal readability
-				 */}
 				<h2 className="font-eurostile-extended text-2xl md:text-3xl font-bold">Smart tracking made simple</h2>
 				<p className="mt-3 text-gray-800 leading-relaxed">
 					Chipolo creates sleek, reliable trackers that help you locate your essentials in seconds — keys, wallets, bags, and more.
@@ -83,13 +87,21 @@ export default function ChipoloPage() {
 					<h3 className="font-eurostile-extended text-xl md:text-2xl font-bold">About Chipolo</h3>
 					<div className="mt-4 space-y-4 text-gray-800 leading-relaxed">
 						<p>
-							Chipolo is a Slovenian technology company specializing in Bluetooth-enabled item trackers designed to help users locate personal belongings such as keys, wallets, and bags. Founded in 2013 by a group of friends aiming to solve the common problem of misplacing items, Chipolo has grown into a global brand with a mission to provide peace of mind through innovative and user-friendly products.
+							Chipolo is a Slovenian company that makes Bluetooth trackers, which help people
+							locate their lost or misplaced belongings like keys, wallets, and bags. Known for their
+							minimalist, colorful, and sustainable design, these trackers are made locally in
+							Europe from recycled materials and come in paper-only packaging. Chipolo&#39;s newest
+							trackers, LOOP and CARD, are built to last and feature a rechargeable battery,
+							combining convenience with the company&#39;s commitment to sustainability.
 						</p>
 						<p>
-							With a focus on continuous improvement and user feedback, Chipolo remains dedicated to helping people keep track of their belongings, combining technology, design, and social consciousness in their approach.
+							LOOP and CARD are universally compatible with Apple Find My or Find Hub on
+							Android, allowing users to find their items anywhere in the world with the help of a
+							global network.
 						</p>
 						<p>
-							Our newest product, Chipolo POP, works with the Apple Find My or Google’s Find My Device network, so you can find your things almost anywhere in the world. Chipolo’s not shy! Our trackers have a seriously loud ring, so you can find your things faster, even if they’re hiding in the next room.
+							Additional powerful features, such as phone finding, are available in the free Chipolo
+							companion app.
 						</p>
 
 						<a
@@ -107,70 +119,20 @@ export default function ChipoloPage() {
 			{/* Gallery */}
 			<section className="max-w-6xl mx-auto px-6 pb-16">
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-					{/* Card 1 placeholder — 1600x1200 (4:3) */}
-					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-						<div className="absolute inset-0 flex items-center justify-center">
-							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
-								<p className="font-semibold">Gallery Image 1</p>
-								<p className="text-xs">Target: 1600 x 1200 px (4:3)</p>
-							</div>
+					{galleryImages.map((image, index) => (
+						<div
+							key={image.src}
+							className={`relative w-full h-64 ${index < 3 ? "md:h-72" : "md:h-80"} rounded-lg overflow-hidden`}
+						>
+							<Image
+								src={image.src}
+								alt={image.alt}
+								fill
+								sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+								className="object-cover"
+							/>
 						</div>
-					</div>
-
-					{/* Card 2 placeholder — 1600x1200 (4:3) */}
-					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-						<div className="absolute inset-0 flex items-center justify-center">
-							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
-								<p className="font-semibold">Gallery Image 2</p>
-								<p className="text-xs">Target: 1600 x 1200 px (4:3)</p>
-							</div>
-						</div>
-					</div>
-
-					{/* Card 3 placeholder — 1600x1200 (4:3) */}
-					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
-						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-						<div className="absolute inset-0 flex items-center justify-center">
-							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
-								<p className="font-semibold">Gallery Image 3</p>
-								<p className="text-xs">Target: 1600 x 1200 px (4:3)</p>
-							</div>
-						</div>
-					</div>
-					{/* Wide Card 4 placeholder — 2000x1400 (10:7 ~ 1.43) */}
-					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-						<div className="absolute inset-0 flex items-center justify-center">
-							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
-								<p className="font-semibold">Gallery Image 4</p>
-								<p className="text-xs">Target: 2000 x 1400 px (~4:3)</p>
-							</div>
-						</div>
-					</div>
-
-					{/* Wide Card 5 placeholder — 2000x1400 (10:7 ~ 1.43) */}
-					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-						<div className="absolute inset-0 flex items-center justify-center">
-							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
-								<p className="font-semibold">Gallery Image 5</p>
-								<p className="text-xs">Target: 2000 x 1400 px (~4:3)</p>
-							</div>
-						</div>
-					</div>
-
-					{/* Wide Card 6 placeholder — 2000x1400 (10:7 ~ 1.43) */}
-					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
-						<div className="absolute inset-0 bg-[repeating-linear-gradient(45deg,theme(colors.gray.200),theme(colors.gray.200)_12px,theme(colors.gray.300)_12px,theme(colors.gray.300)_24px)]" />
-						<div className="absolute inset-0 flex items-center justify-center">
-							<div className="bg-black/55 text-white px-3 py-2 rounded text-center">
-								<p className="font-semibold">Gallery Image 6</p>
-								<p className="text-xs">Target: 2000 x 1400 px (~4:3)</p>
-							</div>
-						</div>
-					</div>
+					))}
 				</div>
 			</section>
 		</div>
