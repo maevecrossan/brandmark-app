@@ -52,7 +52,6 @@ export default function ChipoloPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Find your things faster with loud, smart Bluetooth trackers.
 						</p>
-						<p className="mt-2 text-xs text-white/80">Images © Chipolo — used with permission.</p>
 					</div>
 				</div>
 			</section>
