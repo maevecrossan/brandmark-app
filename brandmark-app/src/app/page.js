@@ -22,7 +22,7 @@ export default function Home() {
 						{ src: "/images/secrid/secrid-premium-emboss-lines-fluted-basco-cards.jpg", alt: "Secrid Embossed & Fluted Cardprotectors" },
 						{ src: "/images/cluse/flat-lay-belisenna-cw15004,-cw15005.jpg", alt: "Cluse watches" },
 						{ src: "/images/izipizi/baby-1.jpg", alt: "Izipizi eyewear for kids" },
-						{ placeholderLabel: "Chipolo — Hero Placeholder", placeholderNote: "2400 x 1350 (16:9)" },
+						{ src: "/images/chipolo/Brandmark - 1 - 2400x1350.jpg", alt: "Chipolo One Spot" },
 						{ src: "/images/estella-bartlett/estella-bartlett-15.webp", alt: "Estella Bartlett jewellery" },
 						{ src: "/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg", alt: "Eat My Socks Hotdog" },
 						{ src: "/images/doiy/OLIVIA_AMB1_300.jpg", alt: "DOIY OLIVIA design" },
