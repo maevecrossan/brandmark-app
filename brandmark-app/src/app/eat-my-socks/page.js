@@ -36,7 +36,6 @@ export default function EatMySocksPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Playful giftable socks and accessories shaped like your favorite things.
 						</p>
-						<p className="mt-2 text-xs text-white/80">Images © Eat My Socks — used with permission.</p>
 					</div>
 				</div>
 			</section>

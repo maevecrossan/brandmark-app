@@ -36,7 +36,6 @@ export default function SecridPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Award-winning wallets, engineered in the Netherlands. Compact, secure, and designed to last.
 						</p>
-						<p className="mt-2 text-xs text-white/80">Images © Secrid — used with permission.</p>
 					</div>
 				</div>
 			</section>

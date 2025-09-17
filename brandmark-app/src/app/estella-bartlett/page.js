@@ -36,7 +36,6 @@ export default function EstellaBartlettPage() {
             <p className="mt-3 text-white/90 max-w-xl">
               Delicate, meaningful jewellery and accessories designed in London.
             </p>
-            <p className="mt-2 text-xs text-white/80">Images © Estella Bartlett — used with permission.</p>
           </div>
         </div>
       </section>

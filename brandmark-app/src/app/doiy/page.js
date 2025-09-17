@@ -36,7 +36,6 @@ export default function DOIYPage() {
 						<p className="mt-3 text-white/90 max-w-xl">
 							Playful, design-led home objects that tell stories.
 						</p>
-						<p className="mt-2 text-xs text-white/80">Images © DOIY — used with permission.</p>
 					</div>
 				</div>
 			</section>
