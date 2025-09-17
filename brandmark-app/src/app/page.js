@@ -96,36 +96,46 @@ export default function Home() {
 						return (
 							<div className="space-y-6">
 								{/* Row 1: 2 per line on md, 4 on lg */}
-								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-									{firstRow.map(({ key, label, src }) => (
-										<div key={key} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
-											<Image
-												src={src}
-												alt={`${label} logo`}
-												width={150}
-												height={75}
-												className="object-contain"
-												sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
-											/>
-										</div>
-									))}
-								</div>
+							<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+								{firstRow.map(({ key, label, src }) => (
+									<Link
+										key={key}
+										href={`/${key}`}
+										className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
+										aria-label={`${label} portfolio`}
+									>
+										<Image
+											src={src}
+											alt={`${label} logo`}
+											width={150}
+											height={75}
+											className="object-contain"
+											sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+										/>
+									</Link>
+								))}
+							</div>
 
-								{/* Row 2: 2 per line on md, 3 on lg (DOIY will be solo on md) */}
-								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-									{secondRow.map(({ key, label, src }) => (
-										<div key={key} className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
-											<Image
-												src={src}
-												alt={`${label} logo`}
-												width={150}
-												height={75}
-												className="object-contain"
-												sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
-											/>
-										</div>
-									))}
-								</div>
+							{/* Row 2: 2 per line on md, 3 on lg (DOIY will be solo on md) */}
+							<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+								{secondRow.map(({ key, label, src }) => (
+									<Link
+										key={key}
+										href={`/${key}`}
+										className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
+										aria-label={`${label} portfolio`}
+									>
+										<Image
+											src={src}
+											alt={`${label} logo`}
+											width={150}
+											height={75}
+											className="object-contain"
+											sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+										/>
+									</Link>
+								))}
+							</div>
 							</div>
 						);
 					})()}
