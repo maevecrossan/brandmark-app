@@ -37,6 +37,7 @@ export default function HeroCarousel({
 								priority={i === 0}
 								sizes="100vw"
 								className={imageClassName}
+								style={s.objectPosition ? { objectPosition: s.objectPosition } : undefined}
 							/>
 						) : (
 							<div className="absolute inset-0">
@@ -57,4 +58,3 @@ export default function HeroCarousel({
 		</div>
 	);
 }
-
