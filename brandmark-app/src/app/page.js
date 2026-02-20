@@ -22,14 +22,14 @@ export default function Home() {
 				{(() => {
 					const slides = [
 						// Legami
-						{ src: "/images/legami/legami-1.jpg", alt: "Legami products" },
-						{ src: "/images/secrid/secrid-premium-emboss-lines-fluted-basco-cards.jpg", alt: "Secrid Embossed & Fluted Cardprotectors" },
+						{ src: "/images/legami/legami-hero.webp", alt: "Legami products" },
+						{ src: "/images/secrid/secrid-hero.webp", alt: "Secrid Embossed & Fluted Cardprotectors with Magsafe" },
 						{ src: "/images/cluse/flat-lay-belisenna-cw15004,-cw15005.jpg", alt: "Cluse watches" },
 						{ src: "/images/izipizi/baby-1.jpg", alt: "Izipizi eyewear for kids" },
 						{ src: "/images/chipolo/Brandmark - 1 - 2400x1350.jpg", alt: "Chipolo One Spot" },
-						{ src: "/images/estella-bartlett/estella-bartlett-15.webp", alt: "Estella Bartlett jewellery" },
+						{ src: "/images/estella-bartlett/estella-bartlett-16.webp", alt: "Estella Bartlett jewellery box" },
 						{ src: "/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg", alt: "Eat My Socks Hotdog" },
-						// Orbitkey
+						{ src: "/images/orbitkey/orbitkey-hero.jpg", alt: "Orbitkey product showcase" },
 					];
 					return (
 						<HeroCarousel slides={slides} imageClassName="object-cover object-[center_60%]" />
