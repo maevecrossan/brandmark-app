@@ -31,7 +31,6 @@ export const metadata = {
 	category: "Business",
 	manifest: "/site.webmanifest",
 	themeColor: "#0f766e",
-	colorScheme: "light",
 	formatDetection: { telephone: true, email: true, address: true },
 	icons: {
 		icon: [
@@ -99,9 +98,9 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<head>
 				{/* Organization JSON-LD for richer SERP */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
 						__html: JSON.stringify({
 							'@context': 'https://schema.org',
 							'@type': 'Organization',
