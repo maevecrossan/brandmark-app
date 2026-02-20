@@ -76,7 +76,7 @@ As a new brand, I...
 ### **Homepage**
 - Hero with rotating brand lifestyle imagery and overlaid tagline.
 - Welcome section introducing Brandmark and CTA to About.
-- Brands grid showcasing logos for Secrid, Cluse, Izipizi, Chipolo, Estella Bartlett, Eat My Socks, and DOIY, with CTA to Portfolio.
+- Brands grid showcasing logos for Legami, Secrid, Cluse, Izipizi, Chipolo, Estella Bartlett, Eat My Socks, and Orbitkey, with CTA to Portfolio.
 
 ### **About**
 - Hero image, “Who We Are” intro, and “What Drives Us” value cards (Partnership, Curation, Service).
@@ -88,13 +88,14 @@ As a new brand, I...
 
 ### **Brand Pages**
 Each brand page has the same layout.
+- Legami: Hero, fun and vibrant products, gallery.
 - Secrid: Hero with credit note, concise intro, detailed “About Secrid” card, and image gallery.
 - Cluse: Hero, minimalist design intro, “About CLUSE” card, and gallery.
 - Izipizi: Hero, brand mission and B Corp commitment summary, and gallery.
 - Chipolo: Hero and gallery placeholders with target dimensions guidance, “About Chipolo” card, and copy referencing Apple/Google Find My integration.
 - Estella Bartlett: Hero, “Everyday elegance” intro, detailed about card, and gallery.
 - Eat My Socks: Hero, playful gifting intro, sustainability notes, and gallery.
-- DOIY: Hero, design-led intro, brand story about card, and gallery.
+- Orbitkey: Hero, "What is Orbitkey?", gallery
 
 ### **Projects**
 - Three case studies highlighting Secrid installations: Piaggio APE feature, shop‑in‑shop build, and nationwide wall features, each with imagery and descriptions.
