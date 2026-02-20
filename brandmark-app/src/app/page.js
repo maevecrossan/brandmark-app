@@ -20,12 +20,14 @@ export default function Home() {
 			<section id="hero" className="relative w-full min-h-[60vh] md:min-h-[60vh] lg:min-h-[70vh] overflow-hidden rounded-b-lg">
 				{(() => {
 					const slides = [
+						// Legami
 						{ src: "/images/secrid/secrid-premium-emboss-lines-fluted-basco-cards.jpg", alt: "Secrid Embossed & Fluted Cardprotectors" },
 						{ src: "/images/cluse/flat-lay-belisenna-cw15004,-cw15005.jpg", alt: "Cluse watches" },
 						{ src: "/images/izipizi/baby-1.jpg", alt: "Izipizi eyewear for kids" },
 						{ src: "/images/chipolo/Brandmark - 1 - 2400x1350.jpg", alt: "Chipolo One Spot" },
 						{ src: "/images/estella-bartlett/estella-bartlett-15.webp", alt: "Estella Bartlett jewellery" },
 						{ src: "/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg", alt: "Eat My Socks Hotdog" },
+						// Orbitkey
 					];
 					return (
 						<HeroCarousel slides={slides} imageClassName="object-cover object-[center_60%]" />
@@ -116,7 +118,7 @@ export default function Home() {
 								))}
 							</div>
 
-							{/* Row 2: 2 per line on md, 3 on lg (DOIY will be solo on md) */}
+							{/* NEEDS UPDATING */}
 							<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
 								{secondRow.map(({ key, label, src }) => (
 									<Link

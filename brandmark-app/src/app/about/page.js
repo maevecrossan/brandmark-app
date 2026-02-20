@@ -28,7 +28,7 @@ export default function About() {
 							Brandmark is an agency with a passion for design, fashion, and function. We bring a curated mix of international lifestyle and accessory brands to the Irish market, focusing on products that combine creativity with everyday usability.
 						</p>
 						<p className="text-base md:text-lg leading-relaxed text-gray-800 mb-4">
-							Our portfolio includes Secrid, Izipizi, Cluse, Chipolo, Eat My Socks, DOIY, and Estella Bartlett. Each brand is chosen for its innovation, style, and ability to connect with today’s consumer.
+							Our portfolio includes Legami, Secrid, Izipizi, Cluse, Chipolo, Eat My Socks, Orbitkey, and Estella Bartlett. Each brand is chosen for its innovation, style, and ability to connect with today’s consumer.
 						</p>
 						<p className="text-base md:text-lg leading-relaxed text-gray-800">
 							Based in Dublin, our showroom has welcomed buyers for over 15 years. With neighbours like Mos Mosh and Carhartt, we’re positioned at the heart of Ireland’s fashion and lifestyle hub.
