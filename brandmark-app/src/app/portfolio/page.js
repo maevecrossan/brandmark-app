@@ -57,7 +57,13 @@ export default function Portfolio() {
 			short: "A fun, creative gift brand turning socks into quirky, food-inspired surprises.",
 			categories: ["Socks", "Gifts"],
 		},
-		// Orbit Key
+		{
+			key: "orbitkey",
+			name: "Orbitkey",
+			logo: "/images/orbitkey/orbitkey-logo.jpg",
+			short: "Innovative keyless entry solutions for modern homes and businesses.",
+			categories: ["Home", "Accessories"],
+		},
 	];
 
 	// Build unique categories and filter state
