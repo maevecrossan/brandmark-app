@@ -4,13 +4,14 @@ import HeroCarousel from "./components/HeroCarousel";
 
 export default function Home() {
 	const brands = [
+		// Legami
 		{ key: 'secrid', label: 'Secrid', src: '/images/secrid/secrid_logo.png' },
 		{ key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
 		{ key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
 		{ key: 'chipolo', label: 'Chipolo', src: '/images/chipolo/chipolo_logo.png' },
 		{ key: 'estella-bartlett', label: 'Estella Bartlett', src: '/images/estella-bartlett/eb_logo.png' },
 		{ key: 'eat-my-socks', label: 'Eat My Socks', src: '/images/eat-my-socks/ems_logo.png' },
-		{ key: 'doiy', label: 'DOIY', src: '/images/doiy/doiy_logo.png' },
+		// Orbit Key
 	];
 
 	return (
@@ -25,7 +26,6 @@ export default function Home() {
 						{ src: "/images/chipolo/Brandmark - 1 - 2400x1350.jpg", alt: "Chipolo One Spot" },
 						{ src: "/images/estella-bartlett/estella-bartlett-15.webp", alt: "Estella Bartlett jewellery" },
 						{ src: "/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg", alt: "Eat My Socks Hotdog" },
-						{ src: "/images/doiy/OLIVIA_AMB1_300.jpg", alt: "DOIY OLIVIA design" },
 					];
 					return (
 						<HeroCarousel slides={slides} imageClassName="object-cover object-[center_60%]" />
