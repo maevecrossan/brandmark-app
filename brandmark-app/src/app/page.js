@@ -120,7 +120,7 @@ export default function Home() {
 									))}
 								</div>
 
-								{/* NEEDS UPDATING */}
+								{/* Row 2: 2 per line on md, 4 on lg */}
 								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
 									{secondRow.map(({ key, label, src }) => (
 										<Link
