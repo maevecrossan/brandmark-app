@@ -3,15 +3,16 @@ import Link from "next/link";
 import HeroCarousel from "./components/HeroCarousel";
 
 export default function Home() {
+	// LOGOS
 	const brands = [
-		// Legami
+		{ key: 'legami', label: 'Legami', src: '/images/legami/legami-logo.webp' },
 		{ key: 'secrid', label: 'Secrid', src: '/images/secrid/secrid_logo.png' },
 		{ key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
 		{ key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
 		{ key: 'chipolo', label: 'Chipolo', src: '/images/chipolo/chipolo_logo.png' },
 		{ key: 'estella-bartlett', label: 'Estella Bartlett', src: '/images/estella-bartlett/eb_logo.png' },
 		{ key: 'eat-my-socks', label: 'Eat My Socks', src: '/images/eat-my-socks/ems_logo.png' },
-		// Orbit Key
+		{ key: 'orbitkey', label: 'Orbitkey', src: '/images/orbitkey/orbitkey-logo.jpg' },
 	];
 
 	return (
@@ -21,6 +22,7 @@ export default function Home() {
 				{(() => {
 					const slides = [
 						// Legami
+						{ src: "/images/legami/legami-1.jpg", alt: "Legami products" },
 						{ src: "/images/secrid/secrid-premium-emboss-lines-fluted-basco-cards.jpg", alt: "Secrid Embossed & Fluted Cardprotectors" },
 						{ src: "/images/cluse/flat-lay-belisenna-cw15004,-cw15005.jpg", alt: "Cluse watches" },
 						{ src: "/images/izipizi/baby-1.jpg", alt: "Izipizi eyewear for kids" },
@@ -51,7 +53,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			
+
 			{/* Welcome Section */}
 			<section id="welcome" className="mt-6">
 				<div className="mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-6 py-12">
@@ -87,57 +89,57 @@ export default function Home() {
 				</div>
 			</section>
 
-			{/*  Brands Section */}
+			{/*  Brands Section (Logos) */}
 			<section id="brands" className="mt-12 mb-24">
 				<div className="max-w-7xl mx-auto px-6 bg-mist/70 py-12 rounded-lg">
 					<h2 className="font-eurostile-extended text-3xl md:text-4xl font-bold mb-8 text-center">Our Brands</h2>
 					<p className="text-base md:text-lg font-medium mb-10 text-center px-10 md:px-35">Our portfolio includes some of the most exciting names in contemporary design. Each brand is carefully chosen for its innovation, style, and ability to connect with today’s consumer.</p>
 					{(() => {
 						const firstRow = brands.slice(0, 4);
-						const secondRow = brands.slice(4, 7);
+						const secondRow = brands.slice(4, 8);
 						return (
 							<div className="space-y-6">
 								{/* Row 1: 2 per line on md, 4 on lg */}
-							<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-								{firstRow.map(({ key, label, src }) => (
-									<Link
-										key={key}
-										href={`/${key}`}
-										className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
-										aria-label={`${label} portfolio`}
-									>
-										<Image
-											src={src}
-											alt={`${label} logo`}
-											width={150}
-											height={75}
-											className="object-contain"
-											sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
-										/>
-									</Link>
-								))}
-							</div>
+								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+									{firstRow.map(({ key, label, src }) => (
+										<Link
+											key={key}
+											href={`/${key}`}
+											className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
+											aria-label={`${label} portfolio`}
+										>
+											<Image
+												src={src}
+												alt={`${label} logo`}
+												width={150}
+												height={75}
+												className="object-contain"
+												sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+											/>
+										</Link>
+									))}
+								</div>
 
-							{/* NEEDS UPDATING */}
-							<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-								{secondRow.map(({ key, label, src }) => (
-									<Link
-										key={key}
-										href={`/${key}`}
-										className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
-										aria-label={`${label} portfolio`}
-									>
-										<Image
-											src={src}
-											alt={`${label} logo`}
-											width={150}
-											height={75}
-											className="object-contain"
-											sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
-										/>
-									</Link>
-								))}
-							</div>
+								{/* NEEDS UPDATING */}
+								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+									{secondRow.map(({ key, label, src }) => (
+										<Link
+											key={key}
+											href={`/${key}`}
+											className="flex items-center justify-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
+											aria-label={`${label} portfolio`}
+										>
+											<Image
+												src={src}
+												alt={`${label} logo`}
+												width={150}
+												height={75}
+												className="object-contain"
+												sizes="(min-width:1024px) 16vw, (min-width:768px) 25vw, 50vw"
+											/>
+										</Link>
+									))}
+								</div>
 							</div>
 						);
 					})()}
