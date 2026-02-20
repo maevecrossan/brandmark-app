@@ -114,7 +114,7 @@ export default function SecridPage() {
 					{/* Card 4 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-emboss-lines-mw-black-1-logo.jpg"
+							src="/images/secrid/secrid-envelopes.jpg"
 							alt="Emboss Lines MW Black Cardprotector"
 							fill
 							sizes="(min-width: 640px) 50vw, 100vw"
