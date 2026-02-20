@@ -11,7 +11,7 @@ export default function Portfolio() {
 		{
 			key: "legami",
 			name: "Legami",
-			logo: "/images/legami/legami-logo.webp",
+			logo: "/images/legami/legami-logo.png",
 			short: "Contemporary lifestyle accessories from Italy, combining functionality with elegant design.",
 			categories: ["Stationery", "Gifts", "Home"],
 		},

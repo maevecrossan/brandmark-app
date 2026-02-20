@@ -24,13 +24,13 @@ export default function LegamiPage() {
 					<div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
 						<div className="inline-block">
 							<Image
-								src="/images/legami/legami-logo.webp"
+								src="/images/legami/legami-logo.png"
 								alt="Legami logo"
 								width={240}
 								height={64}
 								priority
 								sizes="(min-width: 768px) 240px, 180px"
-								className="drop-shadow object-contain w-[180px] h-auto md:w-[240px] invert"
+								className="drop-shadow object-contain w-[180px] h-auto md:w-[240px]"
 							/>
 						</div>
 						<p className="mt-3 text-white/90 max-w-xl">

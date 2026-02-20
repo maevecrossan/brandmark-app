@@ -5,7 +5,7 @@ import HeroCarousel from "./components/HeroCarousel";
 export default function Home() {
 	// LOGOS
 	const brands = [
-		{ key: 'legami', label: 'Legami', src: '/images/legami/legami-logo.webp' },
+		{ key: 'legami', label: 'Legami', src: '/images/legami/legami-logo.png' },
 		{ key: 'secrid', label: 'Secrid', src: '/images/secrid/secrid_logo.png' },
 		{ key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
 		{ key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
