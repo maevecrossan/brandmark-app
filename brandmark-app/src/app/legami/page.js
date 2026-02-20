@@ -10,7 +10,7 @@ export default function LegamiPage() {
 			{/* Hero */}
 			<section className="relative w-full h-[42vh] md:h-[60vh] overflow-hidden rounded-b-lg">
 				<Image
-					src="/images/legami/legami-hero.jpg"
+					src="/images/legami/legami-hero.webp"
 					alt="Legami product showcase"
 					aria-describedby="legami-hero-credit"
 					fill
@@ -24,7 +24,7 @@ export default function LegamiPage() {
 					<div className="max-w-5xl mx-auto px-6 py-6 md:py-0">
 						<div className="inline-block">
 							<Image
-								src="/images/legami/legami_logo.png"
+								src="/images/legami/legami-logo.webp"
 								alt="Legami logo"
 								width={240}
 								height={64}
@@ -88,7 +88,7 @@ export default function LegamiPage() {
 					{/* Card 1 */}
 					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-cardprotector-fluted-orange-4.jpg"
+							src="/images/legami/legami-1.png"
 							alt="Legami product close-up"
 							fill
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -99,7 +99,7 @@ export default function LegamiPage() {
 					{/* Card 2 */}
 					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-hammerstone-group-2.jpg"
+							src="/images/legami/legami-2.webp"
 							alt="Legami collection group"
 							fill
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -110,7 +110,7 @@ export default function LegamiPage() {
 					{/* Card 3 */}
 					<div className="relative w-full h-64 md:h-72 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-premium-emboss-diamond-mw-bordeaux-naplak-mw-red.jpg"
+							src="/images/legami/legami-3.webp"
 							alt="Legami lifestyle assortment"
 							fill
 							sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
@@ -121,7 +121,7 @@ export default function LegamiPage() {
 					{/* Card 4 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-envelopes.jpg"
+							src="/images/legami/legami-4.webp"
 							alt="Legami everyday essentials"
 							fill
 							sizes="(min-width: 640px) 50vw, 100vw"
@@ -131,7 +131,7 @@ export default function LegamiPage() {
 					{/* Card 5 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-stitch-floral-mw-olive.jpg"
+							src="/images/legami/legami-5.webp"
 							alt="Legami signature product detail"
 							fill
 							sizes="(min-width: 640px) 50vw, 100vw"
@@ -141,7 +141,7 @@ export default function LegamiPage() {
 					{/* Card 6 */}
 					<div className="relative w-full h-64 md:h-80 rounded-lg overflow-hidden">
 						<Image
-							src="/images/secrid/secrid-bw-matte-stack.jpg"
+							src="/images/legami/legami-6.webp"
 							alt="Legami collection lineup"
 							fill
 							sizes="(min-width: 640px) 50vw, 100vw"
