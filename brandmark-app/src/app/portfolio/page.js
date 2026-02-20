@@ -8,6 +8,7 @@ import Link from "next/link";
 
 export default function Portfolio() {
 	const brands = [
+		// Legami
 		{
 			key: "secrid",
 			name: "Secrid",
@@ -50,13 +51,7 @@ export default function Portfolio() {
 			short: "A fun, creative gift brand turning socks into quirky, food-inspired surprises.",
 			categories: ["Socks", "Gifts"],
 		},
-		{
-			key: "doiy",
-			name: "DOIY",
-			logo: "/images/doiy/doiy_logo.png",
-			short: "Design-led lifestyle products that are clever, playful, and made to spark joy.",
-			categories: ["Gifts", "Home"],
-		},
+		// Orbit Key
 	];
 
 	// Build unique categories and filter state
