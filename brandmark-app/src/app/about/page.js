@@ -6,14 +6,14 @@ export default function About() {
 			{/* Hero */}
 			<section className="relative w-full h-56 md:h-72 lg:h-80 overflow-hidden rounded-b-lg">
 				<Image
-					src="/images/brandmark/showroom-1.jpg"
+					src="/images/brandmark/trade-show-1.jpg"
 					alt="Brandmark showroom"
 					fill
 					priority
 					sizes="100vw"
-					className="object-cover"
+					className="object-cover object-[center_50%]"
 				/>
-				<div className="absolute inset-0 bg-black/30" />
+				<div className="absolute inset-0 bg-black/60" />
 				<div className="absolute inset-0 flex items-center justify-center">
 					<h1 className="font-eurostile-extended text-white text-3xl md:text-5xl font-bold drop-shadow">About Us</h1>
 				</div>
@@ -83,7 +83,7 @@ export default function About() {
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 					<div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow">
 						<Image
-							src="/images/brandmark/trade-show-1.jpg"
+							src="/images/brandmark/trade-show-3.jpg"
 							alt="Tradeshows"
 							fill
 							sizes="(min-width: 768px) 50vw, 100vw"
@@ -92,7 +92,25 @@ export default function About() {
 					</div>
 					<div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow">
 						<Image
-							src="/images/brandmark/trade-show-3.jpg"
+							src="/images/brandmark/trade-show-5.jpeg"
+							alt="Tradeshows"
+							fill
+							sizes="(min-width: 768px) 50vw, 100vw"
+							className="object-cover object-[center_70%]"
+						/>
+					</div>
+					<div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow">
+						<Image
+							src="/images/brandmark/trade-show-6.jpeg"
+							alt="Tradeshows"
+							fill
+							sizes="(min-width: 768px) 50vw, 100vw"
+							className="object-cover object-[center_70%]"
+						/>
+					</div>
+					<div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden shadow">
+						<Image
+							src="/images/brandmark/trade-show-7.jpeg"
 							alt="Tradeshows"
 							fill
 							sizes="(min-width: 768px) 50vw, 100vw"
