@@ -10,6 +10,13 @@ export default function Portfolio() {
 	const brands = [
 		// Legami
 		{
+			key: "legami",
+			name: "Legami",
+			logo: "/images/legami/legami-logo.webp",
+			short: "Contemporary lifestyle accessories from Italy, combining functionality with elegant design.",
+			categories: ["Stationery", "Gifts", "Home"],
+		},
+		{
 			key: "secrid",
 			name: "Secrid",
 			logo: "/images/secrid/secrid_logo.png",
