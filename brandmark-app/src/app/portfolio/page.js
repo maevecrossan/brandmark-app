@@ -8,7 +8,6 @@ import Link from "next/link";
 
 export default function Portfolio() {
 	const brands = [
-		// Legami
 		{
 			key: "legami",
 			name: "Legami",
