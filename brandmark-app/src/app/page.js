@@ -10,7 +10,6 @@ export default function Home() {
 		{ key: 'cluse', label: 'Cluse', src: '/images/cluse/cluse-logo.png' },
 		{ key: 'izipizi', label: 'Izipizi', src: '/images/izipizi/izipizi-logo.png' },
 		{ key: 'chipolo', label: 'Chipolo', src: '/images/chipolo/chipolo_logo.png' },
-		{ key: 'estella-bartlett', label: 'Estella Bartlett', src: '/images/estella-bartlett/eb_logo.png' },
 		{ key: 'eat-my-socks', label: 'Eat My Socks', src: '/images/eat-my-socks/ems_logo.png' },
 		{ key: 'orbitkey', label: 'Orbitkey', src: '/images/orbitkey/orbitkey-logo.jpg' },
 	];
@@ -26,7 +25,6 @@ export default function Home() {
 						{ src: "/images/cluse/flat-lay-belisenna-cw15004,-cw15005.jpg", alt: "Cluse watches" },
 						{ src: "/images/izipizi/izipizi-hero-1.jpg", alt: "Izipizi eyewear for kids", objectPosition: "62% 25%", },
 						{ src: "/images/chipolo/Brandmark - 1 - 2400x1350.jpg", alt: "Chipolo One Spot" },
-						{ src: "/images/estella-bartlett/estella-bartlett-16.webp", alt: "Estella Bartlett jewellery box" },
 						{ src: "/images/eat-my-socks/EMSNOCHODO_AMB1_300.jpg", alt: "Eat My Socks Hotdog" },
 						{ src: "/images/orbitkey/orbitkey-hero.jpg", alt: "Orbitkey product showcase" },
 					];
@@ -95,7 +93,7 @@ export default function Home() {
 					<p className="text-base md:text-lg font-medium mb-10 text-center px-10 md:px-35">Our portfolio includes some of the most exciting names in contemporary design. Each brand is carefully chosen for its innovation, style, and ability to connect with today’s consumer.</p>
 					{(() => {
 						const firstRow = brands.slice(0, 4);
-						const secondRow = brands.slice(4, 8);
+						const secondRow = brands.slice(4);
 						return (
 							<div className="space-y-6">
 								{/* Row 1: 2 per line on md, 4 on lg */}
@@ -119,8 +117,8 @@ export default function Home() {
 									))}
 								</div>
 
-								{/* Row 2: 2 per line on md, 4 on lg */}
-								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+								{/* Row 2: 2 per line on sm, 3 on lg */}
+								<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
 									{secondRow.map(({ key, label, src }) => (
 										<Link
 											key={key}

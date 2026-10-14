@@ -76,7 +76,7 @@ As a new brand, I...
 ### **Homepage**
 - Hero with rotating brand lifestyle imagery and overlaid tagline.
 - Welcome section introducing Brandmark and CTA to About.
-- Brands grid showcasing logos for Legami, Secrid, Cluse, Izipizi, Chipolo, Estella Bartlett, Eat My Socks, and Orbitkey, with CTA to Portfolio.
+- Brands grid showcasing logos for Legami, Secrid, Cluse, Izipizi, Chipolo, Eat My Socks, and Orbitkey, with CTA to Portfolio.
 
 ### **About**
 - Hero image, “Who We Are” intro, and “What Drives Us” value cards (Partnership, Curation, Service).
@@ -93,7 +93,6 @@ Each brand page has the same layout.
 - Cluse: Hero, minimalist design intro, “About CLUSE” card, and gallery.
 - Izipizi: Hero, brand mission and B Corp commitment summary, and gallery.
 - Chipolo: Hero and gallery placeholders with target dimensions guidance, “About Chipolo” card, and copy referencing Apple/Google Find My integration.
-- Estella Bartlett: Hero, “Everyday elegance” intro, detailed about card, and gallery.
 - Eat My Socks: Hero, playful gifting intro, sustainability notes, and gallery.
 - Orbitkey: Hero, "What is Orbitkey?", gallery
 

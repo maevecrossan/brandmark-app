@@ -44,13 +44,6 @@ export default function Portfolio() {
 			categories: ["Smart Accessories", "Accessories"],
 		},
 		{
-			key: "estella-bartlett",
-			name: "Estella Bartlett",
-			logo: "/images/estella-bartlett/eb_logo.png",
-			short: "Contemporary jewellery and accessories blending femininity, charm, and everyday wearability.",
-			categories: ["Jewellery", "Gifts"],
-		},
-		{
 			key: "eat-my-socks",
 			name: "Eat My Socks",
 			logo: "/images/eat-my-socks/ems_logo.png",
